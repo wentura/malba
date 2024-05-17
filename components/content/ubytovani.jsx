@@ -1,9 +1,19 @@
+import Image from "next/image";
 import React from "react";
-
+import { Content } from "../contentData";
 export default function Ubytovani() {
   return (
-    <div className="bg-white py-8 sm:py-12 lg:py-24">
+    <div className="bg-white py-8 sm:py-12 lg:py-24" id="ubytovani">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <div className="mb-10 md:mb-16">
+          <Image
+            src="/images/malba_logo.png"
+            width={400}
+            height={300}
+            className="invert text-center mx-auto pb-4"
+            alt="Malba logo"
+          />
+        </div>
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-full">
@@ -71,10 +81,9 @@ export default function Ubytovani() {
             </p>
           </div>
         </div>
-
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 py-8">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 py-8 ">
           <div className="lg:order-2">
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-3/5">
+            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
               <img
                 src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                 loading="lazy"
@@ -100,9 +109,6 @@ export default function Ubytovani() {
               K dispozici je kuchyňka, lednice a venkovní posezení. O komfort se
               stará podlahové vytápění a klimatizace.
             </p>
-            {/* <h2 className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
-              About us
-            </h2> */}
             <p className="mb-4 text-gray-500 sm:text-lg">
               Hosté Malběnky mohou využívat všechny služby a společné prostory
               penzionu Malba. Chata není vhodná pro malé děti a osoby s omezeným

@@ -10,4 +10,7 @@
   .odkaz {
     @apply text-gray-600 underline underline-offset-2 decoration-gray-300;
   }
+  .hadvojka {
+    @apply mx-auto text-center text-5xl  md:text-7xl font-bold;
+  }
 }

@@ -1,6 +1,6 @@
 export const navi = [
   { id: 1, title: "ubytovaní", route: "#ubytovani" },
-  { id: 2, title: "restaurace", route: "restaurace" },
+  { id: 2, title: "restaurace", route: "#restaurace" },
   { id: 1, title: "firemní ance", route: "firemniakce" },
   { id: 1, title: "rekreace", route: "rekreace" },
   { id: 1, title: "historie", route: "historie" },

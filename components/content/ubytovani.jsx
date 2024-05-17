@@ -3,9 +3,9 @@ import React from "react";
 import { Content } from "../contentData";
 export default function Ubytovani() {
   return (
-    <div className="bg-white py-8 sm:py-12 lg:py-24" id="ubytovani">
+    <div className="bg-white pt-0 pb-8 sm:pb-12 lg:py-24" id="ubytovani">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <div className="mb-10 md:mb-16">
+        <div className="mb-10 md:mb-16 hidden md:block">
           <Image
             src="/images/malba_logo.png"
             width={400}
@@ -16,12 +16,28 @@ export default function Ubytovani() {
         </div>
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-full">
+            <div className="h-[300px] overflow-hidden rounded-lg shadow-lg flex md:hidden bg-hotel justify-center mx-auto ">
+              <Image
+                height={300}
+                width={400}
+                src="/images/malba_logo.png"
+                loading="lazy"
+                alt="Photo by Martin Sanchez"
+                className="h-36 text-center mt-14 md:hidden"
+              />
+            </div>
+            <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-full hidden md:block">
               <img
                 src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                 loading="lazy"
                 alt="Photo by Martin Sanchez"
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center hidden md:block"
+              />
+              <img
+                src="/images/malba_logo.png"
+                loading="lazy"
+                alt="Photo by Martin Sanchez"
+                className="h-36 text-center mt-8 md:hidden"
               />
             </div>
           </div>

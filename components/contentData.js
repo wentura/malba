@@ -31,7 +31,7 @@ export const Content = [
         shortContent:
           "Kapacita hlavní školicí místnosti je max. 40 osob a nachází se v patře nad restaurací, kterou lze také využít až pro 60 osob.",
         tellMeMore: "... více o firemních akcích",
-        tellMeMoreRoute: "/firemniAkce",
+        tellMeMoreRoute: "/firemni-akce-svatby",
         icon: "https://www.reshot.com/preview-assets/icons/ZN2845FS9X/conference-hall-ZN2845FS9X.svg",
       },
       {

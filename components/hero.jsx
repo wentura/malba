@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 export default function Hero() {
   return (
-    <div className="mx-auto bg-hotel min-h-96 md:min-h-[400px] xl:min-h-[500px] 2xl:min-h-[700px]">
+    <div className="mx-auto bg-hotel min-h-96 md:min-h-[400px] xl:min-h-[500px] 2xl:min-h-[700px] hidden md:block">
       <section className="flex flex-col items-center">
         {/* notice - start */}
         {/* <div className="flex items-center gap-2 rounded border bg-gray-50 p-2 text-gray-500">
@@ -51,7 +51,7 @@ export default function Hero() {
             src="/images/malba_logo.png"
             height={600}
             width={800}
-            className="h-[300px] w-[700px] drop-shadow-lg shadow-slate-950"
+            className="h-[300px] w-[700px] drop-shadow-lg shadow-slate-950 "
             alt="Malba penzion logo"
           />
         </div>

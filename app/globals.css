@@ -3,7 +3,9 @@
 @tailwind utilities;
 @layer utilities {
   .bg-hotel {
-    background-image: url("https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg");
+    background: rgba(0, 0, 0, 0.3) url("/images/malba2.jpg");
+    background-blend-mode: darken;
+
     background-position: center center;
     background-size: cover;
   }
@@ -11,6 +13,6 @@
     @apply text-gray-600 underline underline-offset-2 decoration-gray-300;
   }
   .hadvojka {
-    @apply mx-auto text-center text-5xl  md:text-7xl font-bold;
+    @apply mx-auto text-center text-2xl md:text-7xl font-bold;
   }
 }

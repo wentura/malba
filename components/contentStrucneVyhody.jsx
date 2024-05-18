@@ -7,7 +7,6 @@ export default function StrucneVyhody() {
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
           {/* feature - start */}
-
           {/* feature - end */}
           {/* question - start */}
           {Content[1].services.map((sluzby) => {
@@ -43,6 +42,18 @@ export default function StrucneVyhody() {
           </div>
           {/* question - end */}
         </div>
+        <p className="mb-4 text-gray-500 sm:text-lg">
+          Penzion Malba je ubytovací zařízení s restaurací sloužící pouze hostům
+          penzionu, které navazuje na dlouhou tradici pohostinství pod hradem
+          Kokořín v srdci CHKO Kokořínsko.
+          <br />
+          Kapacita je 31 lůžek v 11 pokojích s vlastními koupelnami a do areálu
+          patří i exklusivní skalní domeček Malběnka, který je pro 3 osoby.
+          <br />
+          Restaurace s barem je pouze pro hosty penzionů Malba a Milča, kapacita
+          je 60 míst, 25 míst venkovní terasa, 48 míst posezení u ohniště a
+          vinárna ve skále 15 osob.
+        </p>
       </div>
     </div>
   );

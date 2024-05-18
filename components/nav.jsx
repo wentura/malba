@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { navi } from "./navData";
+import MenuMobilni from "./navMobil";
 export default function Navigation() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Navigation() {
           );
         })}
       </nav>
+      <MenuMobilni />
       {/* nav - end */}
     </div>
   );

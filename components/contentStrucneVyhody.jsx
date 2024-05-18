@@ -16,7 +16,7 @@ export default function StrucneVyhody() {
                 className="flex flex-col items-center bg-white py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40 shadow-xl"
                 key={sluzby.title}
               >
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-gray-50 text-white shadow-lg md:h-20 md:w-20 md:rounded-xl">
+                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg md:h-20 md:w-20">
                   <img src={sluzby.icon} className="p-2" />
                 </div>
                 <h3 className="mb-2 text-center text-lg font-semibold md:text-xl">
@@ -33,32 +33,14 @@ export default function StrucneVyhody() {
                 </Link>
               </div>
             );
-
-            // return (
-            //   <div
-            //     key={sluzby.title}
-            //     className="px-4 pt-4 pb-0 border-l-8 md:border-l-9 border-l-gray-100 flex flex-col justify-between"
-            //   >
-            //     <div>
-            //       <h3 className="mb-2 text-lg font-semibold text-gray-700 md:text-xl">
-            //         {sluzby.title}
-            //       </h3>
-            //       <div
-            //         className="text-gray-500"
-            //         dangerouslySetInnerHTML={{
-            //           __html: sluzby.shortContent,
-            //         }}
-            //       />
-            //     </div>
-            //     <div className="text-right pb-2 pt-4">
-            //       <Link href={sluzby.tellMeMoreRoute} className="odkaz">
-            //         {sluzby.tellMeMore}
-            //       </Link>
-            //     </div>
-            //   </div>
-            // );
           })}
-
+          <div className="flex flex-col justify-center items-center py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40">
+            <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition delay-300 hover:bg-mabla-100 shadow-xl hover:shadow-md">
+              <Link href="/kontakt" className="text-2xl">
+                Kontaktujte nás
+              </Link>
+            </div>
+          </div>
           {/* question - end */}
         </div>
       </div>

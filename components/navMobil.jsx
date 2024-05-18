@@ -64,7 +64,7 @@ export default function MenuMobilni() {
               <li className="flex py-2" key={navig.id}>
                 <Link
                   href={navig.route}
-                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-yellow-600 capitalize"
+                  className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-yellow-600"
                   onClick={toggleMenu}
                 >
                   {navig.title}

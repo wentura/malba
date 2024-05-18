@@ -70,15 +70,15 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        <div className="my-10 md:my-16 mx-auto text-center">
-          <iframe
-            className="border-0 mx-auto min-h-[500px] "
-            src="https://frame.mapy.cz/s/dadapegato"
-            width="100%"
-            height="100%"
-            frameborder="0"
-          />
-        </div>
+      </div>
+      <div className="my-10 md:my-16 mx-auto text-center">
+        <iframe
+          className="border-0 mx-auto min-h-[500px] max-w-screen-2xl"
+          src="https://frame.mapy.cz/s/dadapegato"
+          width="100%"
+          height="100%"
+          frameborder="0"
+        />
       </div>
     </div>
   );

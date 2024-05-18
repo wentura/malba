@@ -22,6 +22,13 @@ module.exports = {
         8: "8px",
         9: "24px",
       },
+      colors: {
+        mabla: {
+          50: "#D7A574",
+          100: "#FFAF60",
+          200: "#454545",
+        },
+      },
     },
     plugins: [],
   },

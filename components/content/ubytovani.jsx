@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Content } from "../contentData";
 export default function Ubytovani() {
@@ -86,8 +87,10 @@ export default function Ubytovani() {
               mikrovlákna vhodné pro alergiky. Ložní prádlo a ručníky jsou
               v ceně pokoje.
             </p>
-            <p className="mb-2 text-lg font-semibold  sm:text-xl md:mb-4 md:text-right odkaz">
-              ceník ubytování
+            <p className="mb-2 text-lg font-semibold  sm:text-xl md:mb-4 md:text-right ">
+              <Link href="/cenik" className="odkaz">
+                ceník ubytování
+              </Link>
             </p>
           </div>
         </div>

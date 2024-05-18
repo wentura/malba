@@ -17,8 +17,10 @@ export default function Restaurace() {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
-              <img
-                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
+              <Image
+                width={600}
+                height={600}
+                src="/images/restaurace.webp"
                 loading="lazy"
                 alt="Photo by Martin Sanchez"
                 className="h-full w-full object-cover object-center"

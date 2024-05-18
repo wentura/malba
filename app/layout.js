@@ -12,14 +12,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth	">
-      <body className={inter.className}>
-        <div className="w-full bg-white sticky top-0 z-10">
-          <div className="container max-w-screen-2xl mx-auto">
-            <Header />
-          </div>
-        </div>
-        <Hero />
+    <html lang="en" className="scroll-smooth">
+      <body>
         {children}
         <Footer />
       </body>

@@ -1,9 +1,14 @@
+import Cenik from "@/components/content/cenik";
+import Rekreace from "@/components/content/rekreace";
 import Restaurace from "@/components/content/restaurace";
 import Ubytovani from "@/components/content/ubytovani";
 import StrucneVyhody from "@/components/contentStrucneVyhody";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Image from "next/image";
+import FiremniAkceSvatby from "./(content)/firemni-akce-svatby/page";
+import ContentHistorie from "./(content)/historie/page";
+import ContentKontakt from "./(content)/kontakt/page";
 
 export default function Home() {
   return (
@@ -18,6 +23,11 @@ export default function Home() {
       <StrucneVyhody />
       <Ubytovani />
       <Restaurace />
+      <FiremniAkceSvatby />
+      <Rekreace />
+      <ContentHistorie />
+      <Cenik />
+      <ContentKontakt />
     </div>
   );
 }

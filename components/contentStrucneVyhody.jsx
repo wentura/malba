@@ -3,8 +3,8 @@ import React from "react";
 import { Content } from "./contentData";
 export default function StrucneVyhody() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12 hidden md:block">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="bg-white py-6 sm:py-8 lg:py-12 hidden md:block" id="malba">
+      <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
           {/* feature - start */}
           {/* feature - end */}

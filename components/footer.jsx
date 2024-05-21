@@ -6,7 +6,7 @@ import { navi } from "./navData";
 export default function Footer() {
   return (
     <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
-      <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <footer className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
           <div className="hidden md:flex md:flex-col">
             <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">

@@ -12,8 +12,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body>
+    <html
+      lang="en"
+      className="scroll-smooth scroll-p-14 md:scroll-p-12 lg:scroll-pt-8"
+    >
+      <body className="max-w-screen-xl mx-auto">
         {children}
         <Footer />
       </body>

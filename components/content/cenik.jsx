@@ -2,7 +2,7 @@ import React from "react";
 import { CenikMalbenka, CenikUbytovani } from "../cenikData";
 export default function Cenik() {
   return (
-    <div className="bg-white py-8 sm:py-12 lg:py-24">
+    <div className="bg-white py-8 sm:py-12 lg:py-24" id="cenik">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <div className="mb-10 md:mb-16">
           {/* <Image

@@ -5,7 +5,7 @@ import { Content } from "../contentData";
 export default function Ubytovani() {
   return (
     <div className="bg-white pt-0 pb-8 sm:pb-12 lg:py-24" id="ubytovani">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         {/* <div className="mb-10 md:mb-16 hidden md:block">
           <Image
             src="/images/malba_logo.png"

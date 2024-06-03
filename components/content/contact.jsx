@@ -73,7 +73,7 @@ export default function Contact() {
       </div>
       <div className="my-10 md:my-16 mx-auto text-center">
         <iframe
-          className="border-0 mx-auto min-h-[500px] max-w-screen-2xl"
+          className="border-0 mx-auto min-h-[500px] max-w-screen-3xl"
           src="https://frame.mapy.cz/s/dadapegato"
           width="100%"
           height="100%"

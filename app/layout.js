@@ -1,7 +1,17 @@
+import Cenik from "@/components/content/cenik";
+import Contact from "@/components/content/contact";
+import FiremniAkce from "@/components/content/firemniAkce";
+import Historie from "@/components/content/historie";
+import Rekreace from "@/components/content/rekreace";
+import Restaurace from "@/components/content/restaurace";
+import Ubytovani from "@/components/content/ubytovani";
+import StrucneVyhody from "@/components/contentStrucneVyhody";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import Row from "@/components/row";
 import { Inter } from "next/font/google";
+import Image from "next/image";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +26,53 @@ export default function RootLayout({ children }) {
       lang="en"
       className="scroll-smooth scroll-p-14 md:scroll-p-12 lg:scroll-pt-8"
     >
-      <body className="max-w-screen-xl mx-auto">
+      <body className="mx-auto">
+        <div className="w-full bg-white sticky top-0 z-10">
+          <div className="container max-w-screen-xl mx-auto">
+            <Header />
+          </div>
+        </div>
         {children}
+        <Hero />
+        <StrucneVyhody />
+        <Row
+          title="ubytování s prima výhledem"
+          text=""
+          bgImgClass="test"
+          darkRow="darkRow"
+        />
+        <Ubytovani idScroll="ubytovani" />
+        <Row title="prvni row" text="nejak claim jak svina" />
+        <Restaurace idScroll="restaurace" />
+        <Row
+          title="ubytování s prima výhledem"
+          text=""
+          bgImgClass="test2"
+          darkRow="lightRow"
+        />
+        <FiremniAkce idScroll="firemni-akce-svatby" />
+        <Row
+          title="ubytování s prima výhledem"
+          text=""
+          bgImgClass="test3"
+          darkRow="lightRow"
+        />
+        <Rekreace idScroll="rekreace" />
+        <Row
+          title="ubytování s prima výhledem"
+          text=""
+          bgImgClass="test"
+          darkRow="darkRow"
+        />
+        <Historie idScroll="historie" />
+        <Row
+          title="ubytování s prima výhledem"
+          text=""
+          bgImgClass="test"
+          darkRow="darkRow"
+        />
+        <Cenik idScroll="cenik" />
+        <Contact idScroll="kontakt" />
         <Footer />
       </body>
     </html>

@@ -11,30 +11,36 @@ export default function StrucneVyhody() {
           {/* question - start */}
           {Content[1].services.map((sluzby) => {
             return (
-              <div
-                className="flex flex-col items-center bg-white py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40 shadow-xl"
+              <Link
+                href={sluzby.tellMeMoreRoute}
                 key={sluzby.title}
+                className="bg-white py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40 shadow-lg align-middle hover:scale-105 transition duration-300 hover:shadow-2xl ease-in-out"
               >
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg md:h-20 md:w-20">
-                  <img src={sluzby.icon} className="p-2" />
+                <div className="flex flex-col items-center">
+                  <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg md:h-20 md:w-20">
+                    <img src={sluzby.icon} className="p-2" />
+                  </div>
+                  <h3 className="mb-2 text-center text-lg font-semibold md:text-xl">
+                    {sluzby.title}
+                  </h3>
+                  <div
+                    className="mb-2 text-center text-gray-500"
+                    dangerouslySetInnerHTML={{
+                      __html: sluzby.shortContent,
+                    }}
+                  ></div>
+                  {/* <Link
+                    href={sluzby.tellMeMoreRoute}
+                    className="odkaz self-end"
+                  >
+                    {sluzby.tellMeMore}
+                  </Link> */}
                 </div>
-                <h3 className="mb-2 text-center text-lg font-semibold md:text-xl">
-                  {sluzby.title}
-                </h3>
-                <div
-                  className="mb-2 text-center text-gray-500"
-                  dangerouslySetInnerHTML={{
-                    __html: sluzby.shortContent,
-                  }}
-                ></div>
-                <Link href={sluzby.tellMeMoreRoute} className="odkaz self-end">
-                  {sluzby.tellMeMore}
-                </Link>
-              </div>
+              </Link>
             );
           })}
           <div className="flex flex-col justify-center items-center py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40">
-            <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition delay-300 hover:bg-mabla-100 shadow-xl hover:shadow-md">
+            <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition duration-500 hover:bg-mabla-100 shadow-lg hover:shadow-2xl hover:scale-125 ease-in-out">
               <Link href="/kontakt" className="text-2xl">
                 Kontaktujte nás
               </Link>

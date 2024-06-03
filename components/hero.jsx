@@ -47,13 +47,13 @@ export default function Hero() {
             </a>
           </div> */}
 
-          <Image
+          {/* <Image
             src="/images/malba_logo.png"
             height={600}
             width={800}
             className="h-[300px] w-[700px] drop-shadow-lg shadow-slate-950 "
             alt="Malba penzion logo"
-          />
+          /> */}
         </div>
       </section>
     </div>

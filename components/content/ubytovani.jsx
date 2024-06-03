@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Content } from "../contentData";
-export default function Ubytovani() {
+export default function Ubytovani({ idScroll }) {
   return (
-    <div className="bg-white pt-0 pb-8 sm:pb-12 lg:py-24" id="ubytovani">
+    <div className="bg-white pt-0 pb-8 sm:pb-12 lg:py-24" id={idScroll}>
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         {/* <div className="mb-10 md:mb-16 hidden md:block">
           <Image
@@ -88,7 +88,7 @@ export default function Ubytovani() {
               v ceně pokoje.
             </p>
             <p className="mb-2 text-lg font-semibold  sm:text-xl md:mb-4 md:text-right ">
-              <Link href="/cenik" className="odkaz">
+              <Link href="#cenik" className="odkaz">
                 ceník ubytování
               </Link>
             </p>

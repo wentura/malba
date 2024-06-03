@@ -15,4 +15,35 @@
   .hadvojka {
     @apply mx-auto text-center text-5xl md:text-7xl font-bold;
   }
+  .darkRow {
+    @apply text-gray-800;
+  }
+  .lightRow {
+    @apply text-gray-200;
+  }
+}
+.test {
+  background-image: url("/images/4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.test2 {
+  background-image: url("/images/2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.test3 {
+  background-image: url("/images/test3.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.test4 {
+  background-image: url("/images/4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.test5 {
+  background-image: url("/images/4.jpg");
+  background-position: center center;
+  background-size: cover;
 }

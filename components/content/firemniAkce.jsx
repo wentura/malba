@@ -16,7 +16,7 @@ export default function FiremniAkce({ idScroll }) {
         </div>
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
+            <div className="h-full overflow-hidden rounded-lg bg-gray-100 shadow-lg">
               <img
                 src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                 loading="lazy"
@@ -27,14 +27,53 @@ export default function FiremniAkce({ idScroll }) {
           </div>
           <div className="md:pt-8">
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Základem stravování je u nás dobrá snídaně podávaná formou
-              studeného bufetu s teplými a studenými nápoji, ovocem a zeleninou,
-              uzeninou a sýry, cereáliemi a domácím pečivem. Večeře Vám
-              nabídneme a pro skupiny umíme kompletní celodenní stravování.
+              <strong>
+                Restaurace penzionu není otevřena pro veřejnost a firmy tu
+                najdou dostatek klidu a soukromí.
+              </strong>
             </p>
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
-              obědy, večeře, coffeebreaky, rožnění, grilování a rauty.
+              <strong>Kapacita hlavní školicí místnosti je max. 40 osob</strong>{" "}
+              a nachází se v patře nad restaurací, kterou lze také využít až pro
+              60 osob. Uspořádání místností je variabilní a lze je vybavit
+              didaktickou technikou jako je dataprojektor, videoprojektor,
+              diaprojektor, videorekordér, DVD přehrávač, ozvučovací technika či
+              flipchart. Pro menší týmy je možné využít i další menší prostory
+              penzionu.
+            </p>
+            <p className="mb-4 text-gray-500 sm:text-lg">
+              <strong>
+                Pro skupiny jsme schopni zajistit celodenní stravování
+              </strong>
+              : snídaně, obědy, večeře, coffeebreaky, rožnění, grilování a
+              rauty.
+              <strong>
+                Restaurace je otevřena pouze pro hosty penzionů Malba a Milča.
+              </strong>
+            </p>
+            <p className="mb-4 text-gray-500 sm:text-lg">
+              Poradíme Vám s procházkou nebo i s výběrem lokality pro outdoorové
+              aktivity. Nabízíme exkluzivní noční návštěvy hradů Kokořín a
+              Houska.
+            </p>
+            <p className="mb-4 text-gray-500 sm:text-lg">
+              Jsme schopni s našimi partnery zajistit další aktivity jako
+              <strong>
+                paintball, skalní lezení, stromo lezení nebo i připravit celý
+                program
+              </strong>{" "}
+              dle individuálních požadavků.
+            </p>
+            <p className="mb-4 text-gray-500 sm:text-lg">
+              Pro svatby standardně nabízíme svatební víkendy, které kalkulujeme
+              individuálně podle přání hostů.
+            </p>
+            <p className="mb-4 text-gray-500 sm:text-lg">
+              <strong>
+                Hostiny připravujeme formou rautu nebo svatební tabule
+              </strong>
+              , která je omezena maximálním počtem 40 osob. K dispozici je celý
+              penzion včetně teras, jeskyně a ohniště.
             </p>
           </div>
         </div>

@@ -29,10 +29,16 @@ export default function Restaurace({ idScroll }) {
           </div>
           <div className="md:pt-8">
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Základem stravování je u nás dobrá snídaně podávaná formou
-              studeného bufetu s teplými a studenými nápoji, ovocem a zeleninou,
-              uzeninou a sýry, cereáliemi a domácím pečivem. Večeře Vám
-              nabídneme a pro skupiny umíme kompletní celodenní stravování.
+              <strong>
+                Základem stravování je u nás dobrá snídaně podávaná formou
+                studeného bufetu
+              </strong>{" "}
+              s teplými a studenými nápoji, ovocem a zeleninou, uzeninou a sýry,
+              cereáliemi a domácím pečivem.{" "}
+              <strong>
+                Večeře Vám nabídneme a pro skupiny umíme kompletní celodenní
+                stravování.
+              </strong>
             </p>
             <p className="mb-4 text-gray-500 sm:text-lg">
               Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,

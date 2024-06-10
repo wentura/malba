@@ -6,9 +6,6 @@ export default function StrucneVyhody() {
     <div className="bg-white py-6 sm:py-8 lg:py-12 hidden md:block" id="malba">
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
-          {/* feature - start */}
-          {/* feature - end */}
-          {/* question - start */}
           {Content[1].services.map((sluzby) => {
             return (
               <Link
@@ -18,7 +15,7 @@ export default function StrucneVyhody() {
               >
                 <div className="flex flex-col items-center">
                   <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg md:h-20 md:w-20">
-                    <img src={sluzby.icon} className="p-2" />
+                    <img src={sluzby.icon} className="p-2" alt={sluzby.title} />
                   </div>
                   <h3 className="mb-2 text-center text-lg font-semibold md:text-xl">
                     {sluzby.title}
@@ -29,12 +26,6 @@ export default function StrucneVyhody() {
                       __html: sluzby.shortContent,
                     }}
                   ></div>
-                  {/* <Link
-                    href={sluzby.tellMeMoreRoute}
-                    className="odkaz self-end"
-                  >
-                    {sluzby.tellMeMore}
-                  </Link> */}
                 </div>
               </Link>
             );
@@ -49,16 +40,21 @@ export default function StrucneVyhody() {
           {/* question - end */}
         </div>
         <p className="mb-4 text-gray-500 sm:text-lg">
-          Penzion Malba je ubytovací zařízení s restaurací sloužící pouze hostům
-          penzionu, které navazuje na dlouhou tradici pohostinství pod hradem
-          Kokořín v srdci CHKO Kokořínsko.
+          <strong>Penzion Malba</strong> je ubytovací zařízení s restaurací
+          sloužící pouze hostům penzionu, které navazuje na dlouhou tradici
+          pohostinství{" "}
+          <strong>pod hradem Kokořín v srdci CHKO Kokořínsko</strong>.
           <br />
-          Kapacita je 31 lůžek v 11 pokojích s vlastními koupelnami a do areálu
-          patří i exklusivní skalní domeček Malběnka, který je pro 3 osoby.
+          Kapacita je <strong>31 lůžek v 11 pokojích</strong> s vlastními
+          koupelnami a do areálu patří i{" "}
+          <strong>exklusivní skalní domeček Malběnka</strong>, který je pro 3
+          osoby.
           <br />
-          Restaurace s barem je pouze pro hosty penzionů Malba a Milča, kapacita
-          je 60 míst, 25 míst venkovní terasa, 48 míst posezení u ohniště a
-          vinárna ve skále 15 osob.
+          <strong>
+            Restaurace s barem je pouze pro hosty penzionů Malba a Milča
+          </strong>
+          , kapacita je 60 míst, 25 míst venkovní terasa, 48 míst posezení u
+          ohniště a vinárna ve skále 15 osob.
         </p>
       </div>
     </div>

@@ -32,22 +32,26 @@ export default function Rekreace({ idScroll }) {
               pétanque Vám zapůjčíme zdarma.
             </p>
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Pro vyznavače aktivního odpočinku se nabízí bezpočet možností
-              pěších výletů po turisticky značených stezkách i po četných
-              neznačených cestách do celé oblasti CHKO Kokořínsko. Nejznámější a
-              nejbližší turistické cíle jsou hrad Kokořín (500 m) a skalní
-              útvary zvané Pokličky (2,5 km). Mezi další atraktivní cíle patří
-              hrad Houska, Obří hlava, Žába či skalní Bludiště.
+              <strong>
+                Pro vyznavače aktivního odpočinku se nabízí bezpočet možností
+                pěších výletů po turisticky značených stezkách i po četných
+                neznačených cestách do celé oblasti CHKO Kokořínsko.
+              </strong>{" "}
+              Nejznámější a nejbližší turistické cíle jsou hrad Kokořín (500 m)
+              a skalní útvary zvané Pokličky (2,5 km). Mezi další atraktivní
+              cíle patří hrad Houska, Obří hlava, Žába či skalní Bludiště.
             </p>
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Kokořínsko je populární mezi znalci cykloturistiky a to proto, že
-              nabízí trasy nejenom pro vyjížďky na silničním kole, ale i náročné
-              terény pro jízdy na horském kole, kde si na své přijdou jak
-              vyznavači rychlých sjezdů a strmých stoupání, tak pohodoví jezdci
-              přírodou.{" "}
+              <strong>
+                Kokořínsko je populární mezi znalci cykloturistiky
+              </strong>{" "}
+              a to proto, že nabízí trasy nejenom pro vyjížďky na silničním
+              kole, ale i náročné terény pro jízdy na horském kole, kde si na
+              své přijdou jak vyznavači rychlých sjezdů a strmých stoupání, tak
+              pohodoví jezdci přírodou.{" "}
               <a
                 href="http://kokostezky.cz/"
-                className="odkaz lowercase cursor-auto"
+                className="odkaz lowercase cursor-auto font-bold"
                 target="_blank"
               >
                 WWW.KOKOSTEZKY.CZ
@@ -66,7 +70,7 @@ export default function Rekreace({ idScroll }) {
               e-mailem.{" "}
               <a
                 href="http://harasov.eu/"
-                className="odkaz lowercase"
+                className="odkaz lowercase font-bold"
                 target="_blank"
               >
                 www.harasov.eu

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
       <footer className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
+        <div className="flex flex-col md:items-center md:justify-between gap-4 py-6 md:flex-row">
           <div className="hidden md:flex md:flex-col">
             <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">
               {navi.map((navig) => {
@@ -20,28 +20,30 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className="hidden md:flex md:flex-col">
-            <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">
-              {navi.map((navig) => {
-                return (
-                  <Link key={navig.id} href={navig.route}>
-                    {navig.title}
-                  </Link>
-                );
-              })}
-            </nav>
-          </div>
-
-          <div className="hidden md:flex md:flex-col">
-            <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">
-              {navi.map((navig) => {
-                return (
-                  <Link key={navig.id} href={navig.route}>
-                    {navig.title}
-                  </Link>
-                );
-              })}
-            </nav>
+          <div className="flex flex-col gap-1">
+            <ul className="mb-6 text-gray-500 md:mb-8 ">
+              <li>Kokořínský Důl 38</li>
+              <li>277 23</li>
+              <li>Kokořín</li>
+            </ul>
+            <ul className="mb-6 text-gray-500  md:mb-8">
+              <li>
+                <a href="tel:+420603461723" className="odkaz">
+                  +420 603 461 723
+                </a>{" "}
+                <small>(8:00-20:00hod.)</small>
+              </li>
+              <li>
+                <a href="mailto:malba@kokorin.cz" className="odkaz">
+                  malba@kokorin.cz
+                </a>
+              </li>
+            </ul>
+            <ul className="mb-6 text-gray-500 md:mb-8 ">
+              <li>KOKOSPORT s.r.o.</li>
+              <li>IČO:03662993</li>
+              <li>DIČ:CZ03662993</li>
+            </ul>
           </div>
           <div className="hidden md:flex md:flex-col">
             <Image

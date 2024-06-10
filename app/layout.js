@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
         <Row
           title="ubytování s prima výhledem"
           text=""
-          bgImgClass="test"
-          darkRow="darkRow"
+          bgImgClass="test hidden md:block"
+          darkRow="lightdarkRow"
         />
         <Ubytovani idScroll="ubytovani" />
         <Row title="prvni row" text="nejak claim jak svina" />

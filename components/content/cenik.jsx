@@ -39,7 +39,7 @@ export default function Cenik({ idScroll }) {
               {CenikUbytovani.map((cenaM) => {
                 return (
                   <li key="a" className="text-gray-500">
-                    {cenaM}
+                    <strong>{cenaM.cena}</strong> Kč - {cenaM.text}
                   </li>
                 );
               })}
@@ -74,9 +74,11 @@ export default function Cenik({ idScroll }) {
             <ul className="mb-4">
               {CenikMalbenka.map((cenaM) => {
                 return (
-                  <li key="a" className="text-gray-500">
-                    {cenaM}
-                  </li>
+                  <li
+                    key="a"
+                    className="text-gray-500"
+                    dangerouslySetInnerHTML={{ __html: cenaM }}
+                  ></li>
                 );
               })}
             </ul>

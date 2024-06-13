@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Matomo from "./matomo";
 import Navigation from "./nav";
 import { navi } from "./navData";
 export default function Footer() {
@@ -134,6 +135,7 @@ export default function Footer() {
           </a>
         </div>
       </footer>
+      <Matomo />
     </div>
   );
 }

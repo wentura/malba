@@ -77,7 +77,7 @@ export default function Contact() {
           src="https://frame.mapy.cz/s/dadapegato"
           width="100%"
           height="100%"
-          frameborder="0"
+          frameBorder="0"
         />
       </div>
     </div>

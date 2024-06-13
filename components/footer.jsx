@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
       <footer className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="flex flex-col md:items-center md:justify-between gap-4 py-6 md:flex-row">
+        <div className="flex flex-col md:justify-between gap-4 py-6 md:flex-row">
           <div className="hidden md:flex md:flex-col">
             <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">
               {navi.map((navig) => {
@@ -42,7 +42,7 @@ export default function Footer() {
             <ul className="mb-6 text-gray-500 md:mb-8 ">
               <li>KOKOSPORT s.r.o.</li>
               <li>IČO:03662993</li>
-              <li>DIČ:CZ03662993</li>
+              {/* <li>DIČ:CZ03662993</li> */}
             </ul>
           </div>
           <div className="hidden md:flex md:flex-col">

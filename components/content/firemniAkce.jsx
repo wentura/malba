@@ -17,10 +17,12 @@ export default function FiremniAkce({ idScroll }) {
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
             <div className="h-full overflow-hidden rounded-lg bg-gray-100 shadow-lg">
-              <img
-                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
+              <Image
+                width={640}
+                height={480}
+                src="/images/malba/gril.webp"
                 loading="lazy"
-                alt="Photo by Martin Sanchez"
+                alt="grilování, penzion Malba"
                 className="h-full w-full object-cover object-center"
               />
             </div>

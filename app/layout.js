@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className="scroll-smooth scroll-p-14 md:scroll-p-12 lg:scroll-pt-8"
+      className="scroll-smooth scroll-p-14 md:scroll-p-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
     >
       <body className="mx-auto">
         <div className="w-full bg-white sticky top-0 z-10">

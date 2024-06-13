@@ -21,7 +21,7 @@ export default function StrucneVyhody() {
                     {sluzby.title}
                   </h3>
                   <div
-                    className="mb-2 text-center text-gray-500"
+                    className="mb-2 text-left text-gray-500"
                     dangerouslySetInnerHTML={{
                       __html: sluzby.shortContent,
                     }}
@@ -31,9 +31,9 @@ export default function StrucneVyhody() {
             );
           })}
           <div className="flex flex-col justify-center items-center py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40">
-            <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition duration-500 hover:bg-mabla-100 shadow-lg hover:shadow-2xl hover:scale-125 ease-in-out">
+            <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition duration-500 hover:bg-mabla-100 hover:text-m§alba-300 shadow-lg hover:shadow-2xl hover:scale-125 ease-in-out">
               <Link href="/kontakt" className="text-2xl">
-                Kontaktujte nás
+                Rezervujte nyní
               </Link>
             </div>
           </div>

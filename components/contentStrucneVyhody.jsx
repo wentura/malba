@@ -3,7 +3,10 @@ import React from "react";
 import { Content } from "./contentData";
 export default function StrucneVyhody() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12 hidden md:block" id="malba">
+    <div
+      className="bg-white py-6 sm:py-8 lg:pt-12 md:-mb-24 lg:-mb-40 hidden md:block"
+      id="malba"
+    >
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="grid gap-8 sm:grid-cols-2 md:gap-12 xl:grid-cols-3 xl:gap-16">
           {Content[1].services.map((sluzby) => {
@@ -11,7 +14,7 @@ export default function StrucneVyhody() {
               <Link
                 href={sluzby.tellMeMoreRoute}
                 key={sluzby.title}
-                className="bg-white py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40 shadow-lg align-middle hover:scale-105 transition duration-300 hover:shadow-2xl ease-in-out"
+                className="bg-kartaVyhod py-4 px-8 rounded-xl relative md:-top-24 lg:-top-56 xl:-top-96 shadow-lg align-middle hover:scale-105 transition duration-300 hover:shadow-2xl ease-in-out"
               >
                 <div className="flex flex-col items-center">
                   <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg md:h-20 md:w-20">
@@ -21,7 +24,7 @@ export default function StrucneVyhody() {
                     {sluzby.title}
                   </h3>
                   <div
-                    className="mb-2 text-left text-gray-500"
+                    className="mb-2 text-left text-gray-700"
                     dangerouslySetInnerHTML={{
                       __html: sluzby.shortContent,
                     }}
@@ -30,7 +33,7 @@ export default function StrucneVyhody() {
               </Link>
             );
           })}
-          <div className="flex flex-col justify-center items-center py-4 px-8 rounded-xl relative md:-top-24 lg:-top-32 xl:-top-40">
+          <div className="flex flex-col justify-center items-center py-4 px-8 rounded-xl relative md:-top-24 lg:-top-56 xl:-top-96">
             <div className="px-8 py-4 bg-mabla-50 text-center text-gray-900 rounded-xl transition duration-500 hover:bg-mabla-100 hover:text-m§alba-300 shadow-lg hover:shadow-2xl hover:scale-125 ease-in-out">
               <Link href="/kontakt" className="text-2xl">
                 Rezervujte nyní
@@ -39,7 +42,7 @@ export default function StrucneVyhody() {
           </div>
           {/* question - end */}
         </div>
-        <p className="mb-4 text-gray-500 sm:text-lg">
+        <p className="mb-4 text-gray-500 sm:text-lg relative md:-top-12 lg:-top-40 xl:-top-56">
           <strong>Penzion Malba</strong> je ubytovací zařízení s restaurací
           sloužící pouze hostům penzionu, které navazuje na dlouhou tradici
           pohostinství{" "}

@@ -39,7 +39,7 @@ export const Content = [
         shortContent:
           "Rádi Vám poradíme s výběrem tras a turistických cílů. Spolupracujeme s Kokostezkami a půjčujeme kola.",
         tellMeMore: "... více o rekreaci",
-        tellMeMoreRoute: "/rekreace",
+        tellMeMoreRoute: "#rekreace",
         icon: "https://www.reshot.com/preview-assets/icons/E8DLXCPQHF/recreation-E8DLXCPQHF.svg",
       },
       {
@@ -47,7 +47,7 @@ export const Content = [
         shortContent:
           "Více jak stoletá historie.<br />První stavení, které stálo na místě penzionu Malba, byl malý domek Bóža.",
         tellMeMore: "... více o historii",
-        tellMeMoreRoute: "/historie",
+        tellMeMoreRoute: "#historie",
         icon: "https://www.reshot.com/preview-assets/icons/9W8HCBS7FP/history-9W8HCBS7FP.svg",
       },
     ],

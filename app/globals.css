@@ -3,9 +3,8 @@
 @tailwind utilities;
 @layer utilities {
   .bg-hotel {
-    background: rgba(0, 0, 0, 0.3) url("/images/malba2.webp");
+    background: rgba(0, 0, 0, 0.1) url("/images/malba2.webp");
     background-blend-mode: darken;
-
     background-position: center center;
     background-size: cover;
   }
@@ -22,6 +21,17 @@
   .lightRow {
     @apply text-gray-200;
   }
+}
+.bg-kartaVyhod {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.6),
+    /* rgba(0, 0, 0, 0.05), */ /* rgba(198, 144, 36, 0.2) */
+      rgba(255, 255, 255, 0.7)
+  );
 }
 .test {
   background-image: url("/images/malba/4.webp");

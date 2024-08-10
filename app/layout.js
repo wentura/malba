@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
       className="scroll-smooth scroll-p-14 md:scroll-p-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
     >
       <body className="mx-auto">
-        <div className="w-full bg-white sticky top-0 z-10">
-          <div className="container max-w-screen-xl mx-auto">
+        <div className="sticky top-0 z-10 w-full bg-white">
+          <div className="container mx-auto max-w-screen-xl">
             <Header />
           </div>
         </div>
@@ -43,7 +43,13 @@ export default function RootLayout({ children }) {
           darkRow="lightdarkRow"
         />
         <Ubytovani idScroll="ubytovani" />
-        <Row title="prvni row" text="nejak claim jak svina" />
+        <Row
+          title="prvni row"
+          text="nejak claim jak svina"
+          bgImgClass="rowMalbenka hidden md:block"
+          darkRow="lightRow"
+        />
+
         <Restaurace idScroll="restaurace" />
         <Row
           title="ubytování s prima výhledem"

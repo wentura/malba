@@ -1,17 +1,19 @@
+import Slider from "@/components/slider";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
 import { Content } from "../contentData";
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="bg-white pt-0 pb-8 sm:pb-12 lg:py-24" id={idScroll}>
-      <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-        {/* <div className="mb-10 md:mb-16 hidden md:block">
+    <div className="pt-0 pb-8 bg-white sm:pb-12 lg:py-24" id={idScroll}>
+      <div className="px-4 mx-auto max-w-screen-xl md:px-8">
+        {/* <div className="hidden mb-10 md:mb-16 md:block">
           <Image
             src="/images/malba_logo.png"
             width={400}
             height={300}
-            className="invert text-center mx-auto pb-4"
+            className="pb-4 mx-auto text-center invert"
             alt="Malba logo"
           />
         </div> */}
@@ -24,25 +26,25 @@ export default function Ubytovani({ idScroll }) {
                 src="/images/malba2.webp"
                 loading="lazy"
                 alt="chata Malběnka"
-                className="h-full w-full object-cover object-center"
+                className="object-cover object-center w-full h-full"
               />
             </div>
             <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-full hidden md:block">
               <Image
                 height={400}
-                width={800}
+                width={80}
                 src="/images/malba.webp"
                 loading="lazy"
-                alt="Photo by Martin Sanchez"
-                className="h-full w-full object-cover object-center hidden md:block"
+                alt="penzion Malba"
+                className="hidden object-cover object-center w-full h-full md:block"
               />
             </div>
           </div>
           <div className="md:pt-8">
-            <p className="text-center font-bold text-gray-500 md:text-left">
+            <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+            <h1 className="mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               penzion Malba
             </h1>
             <p className="mb-4 text-gray-500 sm:text-lg">
@@ -92,31 +94,32 @@ export default function Ubytovani({ idScroll }) {
               .
             </p>
 
-            <p className="mb-2 text-lg font-semibold  sm:text-xl md:mb-4 md:text-right ">
+            <p className="mb-2 text-lg font-semibold sm:text-xl md:mb-4 md:text-right">
               <Link href="#cenik" className="odkaz">
                 ceník ubytování
               </Link>
             </p>
           </div>
         </div>
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 py-8 ">
+        <div className="grid gap-8 py-8 md:grid-cols-2 lg:gap-12">
           <div className="lg:order-2">
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px] hidden md:block">
+            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[500px] hidden md:block">
               <Image
                 width={600}
-                height={400}
-                src="/images/malbenka/8.webp"
+                height={600}
+                // src="/images/malbenka/8.webp"
+                src="/images/m4.webp"
                 loading="lazy"
                 alt="chata Malběnka"
-                className="h-full w-full object-cover object-center"
+                className="object-cover object-center w-full h-full"
               />
             </div>
           </div>
           <div className="md:pt-8">
-            <p className="text-center font-bold text-gray-500 md:text-left">
+            <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+            <h1 className="mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               chata Malběnka{" "}
             </h1>
             <p className="mb-4 text-gray-500 sm:text-lg">

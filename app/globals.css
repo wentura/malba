@@ -12,7 +12,7 @@
     @apply text-gray-600 underline underline-offset-2 decoration-gray-400;
   }
   .hadvojka {
-    @apply mx-auto text-center text-5xl md:text-7xl font-bold;
+    @apply mx-auto text-5xl font-bold text-center md:text-7xl;
     /* color: #003631; */
   }
   .darkRow {
@@ -55,6 +55,11 @@
 }
 .test5 {
   background-image: url("/images/4.webp");
+  background-position: center center;
+  background-size: cover;
+}
+.rowMalbenka {
+  background-image: url("/images/malba/1.webp");
   background-position: center center;
   background-size: cover;
 }

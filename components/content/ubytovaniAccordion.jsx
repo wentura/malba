@@ -11,7 +11,7 @@ export default function UbytovaniAccordion() {
       isCompact
       variant="splitted"
       defaultExpandedKeys={["1"]}
-      className="text-gray-500 focus:outline-none accordion sm:text-lg"
+      className="text-gray-500 focus:outline-none accordion sm:text-lg "
     >
       {data.map((item) => {
         x++;
@@ -20,7 +20,7 @@ export default function UbytovaniAccordion() {
             key={x}
             aria-label={item.title}
             title={item.title}
-            className="text-gray-500 focus:outline-none accordion-item sm:text-lg"
+            className="mb-2 text-gray-500 focus:outline-none accordion-item sm:text-lg"
           >
             {item.body}
           </AccordionItem>

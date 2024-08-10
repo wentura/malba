@@ -1,6 +1,13 @@
+.accordion {
+  padding: 0px !important;
+}
 .accordion button {
   outline: none !important;
 }
 .accordion button span {
   font-weight: 600;
+  text-align: left;
+}
+.accordion-item {
+  padding: 0px !important;
 }

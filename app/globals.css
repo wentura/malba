@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   .bg-hotel {
-    background: rgba(0, 0, 0, 0.1) url("/images/malba2.webp");
+    background: rgba(0, 0, 0, 0.08) url("/images/malba2.webp");
     background-blend-mode: darken;
     background-position: center center;
     background-size: cover;
@@ -33,33 +33,41 @@
       rgba(255, 255, 255, 0.7)
   );
 }
-.test {
-  background-image: url("/images/malba/4.webp");
-  background-position: center center;
+.row {
+  background-blend-mode: darken;
+  background-position: center center !important;
   background-size: cover;
 }
+.test {
+  background: rgba(0, 0, 0, 0.15) url("/images/malba/4.webp");
+}
 .test2 {
-  background-image: url("/images/malba/2.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/malba/2.webp");
   background-position: center center;
   background-size: cover;
 }
 .test3 {
-  background-image: url("/images/test3.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/test3.webp");
   background-position: center center;
   background-size: cover;
 }
 .test4 {
-  background-image: url("/images/malba/3.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/malba/3.webp");
   background-position: center center;
   background-size: cover;
 }
 .test5 {
-  background-image: url("/images/4.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/4.webp");
   background-position: center center;
   background-size: cover;
 }
 .rowMalbenka {
-  background-image: url("/images/malba/1.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/malba/1.webp");
   background-position: center center;
   background-size: cover;
 }

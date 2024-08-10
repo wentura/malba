@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     >
       <body className="mx-auto">
         <div className="sticky top-0 z-10 w-full bg-white">
-          <div className="container mx-auto max-w-screen-xl">
+          <div className="container max-w-screen-xl mx-auto">
             <Header />
           </div>
         </div>
@@ -37,10 +37,10 @@ export default function RootLayout({ children }) {
         <Hero />
         <StrucneVyhody />
         <Row
-          title="ubytování s prima výhledem"
+          title="ubytování s pohádkovým výhledem"
           text=""
-          bgImgClass="test hidden md:block"
-          darkRow="lightdarkRow"
+          bgImgClass="row test hidden md:block"
+          darkRow="lightRow"
         />
         <Ubytovani idScroll="ubytovani" />
         <Row

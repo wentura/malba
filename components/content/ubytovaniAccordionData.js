@@ -9,7 +9,7 @@ export const data = [
   },
   {
     title: "Základem stravování je u nás poctivá snídaně",
-    body: "podávaná formou studeného bufetu s teplými a studenými nápoji, ovocem a zeleninou, uzeninou a sýry, cereáliemi a domácím pečivem. Večeře Vám nabídneme a pro skupiny umíme kompletní stravování.",
+    body: "podávaná formou studeného bufetu s teplými a studenými nápoji, ovocem a zeleninou uzeninou a sýry, cereáliemi a domácím pečivem. Večeře Vám nabídneme a pro skupiny umíme kompletní stravování.",
   },
   {
     title: "Připojení k internetu je zdarma pomocí Wi–Fi.",

@@ -4,7 +4,7 @@ import React from "react";
 export default function Restaurace({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="px-4 mx-auto max-w-screen-xl md:px-8">
+      <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="mb-10 md:mb-16">
           {/* <Image
             src="/images/malba_logo.png"
@@ -29,7 +29,7 @@ export default function Restaurace({ idScroll }) {
               />
             </div> */}
             <div className="pt-4 pb-8">
-              <Slider data="restaurace" klass="pt-8" vyska="h-64" />
+              <Slider data="restaurace" klass="pt-8" vyska="h-64" />{" "}
               {/* <p className="mb-2 text-gray-500 sm:mb-4 sm:text-lg">
                 Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
                 obědy, večeře, coffeebreaky, rožnění, grilování a rauty.

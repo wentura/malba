@@ -15,24 +15,25 @@ export default function Restaurace({ idScroll }) {
           /> */}
           <h2 className="hadvojka">Restaurace penzionu Malba</h2>
         </div>
-        <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="order-2">
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
+            {/* <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
               <Image
                 width={600}
                 height={600}
                 // src="/images/restaurace.webp"
-                src="/images/mr3.webp"
+                src="/images/mr1.webp"
                 loading="lazy"
                 alt="restaurace penzionu Malba"
                 className="object-cover object-center w-full h-full"
               />
-            </div>
-            <div className="pt-4 md:pt-8">
-              <p className="mb-2 text-gray-500 sm:mb-4 sm:text-lg">
+            </div> */}
+            <div className="pt-4 pb-8">
+              <Slider data="restaurace" klass="pt-8" vyska="h-64" />
+              {/* <p className="mb-2 text-gray-500 sm:mb-4 sm:text-lg">
                 Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
                 obědy, večeře, coffeebreaky, rožnění, grilování a rauty.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="order-1 md:pt-4">
@@ -48,16 +49,16 @@ export default function Restaurace({ idScroll }) {
                 stravování.
               </strong>
             </p>
-            {/* <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="text-gray-500 lg:mb-4 sm:text-lg">
               Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
               obědy, večeře, coffeebreaky, rožnění, grilování a rauty.
-            </p> */}
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
+            </p>
+            <div className="hidden lg:block overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
               <Image
                 width={600}
                 height={400}
                 // src="/images/restaurace.webp"
-                src="/images/mr1.webp"
+                src="/images/mr3.webp"
                 loading="lazy"
                 alt="restaurace penzionu Malba"
                 className="object-cover object-center w-full h-full"
@@ -65,7 +66,6 @@ export default function Restaurace({ idScroll }) {
             </div>
           </div>
         </div>
-        <Slider data="restaurace" klass="relative pt-8" vyska="h-64" />
       </div>
     </div>
   );

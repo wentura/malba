@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
+import "swiper/css/effect-cards";
 import "swiper/css/navigation";
 
-import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./slider.css";
+
+import { EffectCards } from "swiper/modules";
 
 export default function Slider(
   { data = "ubytovani", klass = "h-32" },
@@ -24,17 +26,18 @@ export default function Slider(
   return (
     <div className={`${klass}`}>
       <Swiper
-        navigation={true}
-        modules={[Navigation]}
-        className="h-[300] w-[800px] prvniSlider"
+        effect="cards"
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="swiper mySwiper"
       >
         {slides.map((slide) => (
-          <SwiperSlide key={slide}>
+          <SwiperSlide key={slide} className="swiper-slide">
             <Image
               src={`/images/${slide}.webp`}
-              alt={slide}
-              width={600}
-              height={400}
+              alt="restaurace penzionu Malba"
+              height={600}
+              width={500}
               className="object-cover object-center w-full h-full md:block"
             />
           </SwiperSlide>

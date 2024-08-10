@@ -17,7 +17,21 @@ export default function Slider(
 ) {
   let slides = [];
   if (data === "ubytovani") {
-    slides = ["m1", "m2", "m3", "m4", "m5"];
+    slides = [
+      "m5",
+      "m4",
+      "m3",
+      "m2",
+      "m1",
+      "malba2",
+      "mr7",
+      "mr6",
+      "mp8",
+      "mp5",
+      "mp1",
+      "mp3",
+      "mp2",
+    ];
   }
   if (data === "restaurace") {
     slides = ["mr1", "mr2", "mr3", "mr4"];

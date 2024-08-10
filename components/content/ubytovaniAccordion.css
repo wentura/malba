@@ -1,0 +1,6 @@
+.accordion button {
+  outline: none !important;
+}
+.accordion button span {
+  font-weight: 600;
+}

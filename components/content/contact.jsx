@@ -2,21 +2,14 @@ import Image from "next/image";
 import React from "react";
 export default function Contact() {
   return (
-    <div className="bg-white py-6 sm:py-8 lg:py-12" id="kontakt">
-      <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="mb-10 md:mb-16">
-          {/* <Image
-            src="/images/malba_logo.png"
-            width={400}
-            height={300}
-            className="invert text-center mx-auto pb-4"
-            alt="Malba logo"
-          /> */}
-          <h2 className="hadvojka">Kontakt</h2>
-        </div>
+    <div className="py-6 bg-white sm:py-8 lg:py-12" id="kontakt">
+      <div className="py-24 mb-10 md:mb-16 ubrus drop-shadow-lg">
+        <h2 className="hadvojka">Kontakt</h2>
+      </div>
+      <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           <div className="md:pt-8">
-            <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+            <h1 className="mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               Penzion Malba
             </h1>
             <ul className="mb-6 text-gray-500 sm:text-lg md:mb-8">
@@ -43,12 +36,12 @@ export default function Contact() {
               src="/images/malba_logo.png"
               width={400}
               height={300}
-              className="invert text-center mx-auto pb-4"
+              className="pb-4 mx-auto text-center invert"
               alt="Malba logo"
             /> */}
           </div>
           <div className="md:pt-8">
-            <h2 className="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
+            <h2 className="mb-2 text-xl font-semibold text-center text-gray-800 sm:text-2xl md:mb-4 md:text-left">
               <a href="mailto:malba@kokorin.cz" className="odkaz">
                 Rezervace zasílejte na email malba@kokorin.cz
               </a>
@@ -56,7 +49,7 @@ export default function Contact() {
             <p className="mb-2 text-gray-500 sm:text-lg md:mb-2">
               Uveďte prosím vždy tyto údaje:
             </p>
-            <ul className="pl-6 list-disc text-gray-500">
+            <ul className="pl-6 text-gray-500 list-disc">
               <li>vaše jméno a příjmení</li>
               <li>telefon a email</li>
               <li>počet osob a pokojů</li>
@@ -71,7 +64,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="my-10 md:my-16 mx-auto text-center">
+      <div className="mx-auto my-10 text-center md:my-16">
         <iframe
           className="border-0 mx-auto min-h-[500px] max-w-screen-3xl"
           src="https://frame.mapy.cz/s/dadapegato"

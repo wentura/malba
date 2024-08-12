@@ -4,17 +4,17 @@ import React from "react";
 export default function Restaurace({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="max-w-screen-xl px-4 mx-auto md:px-8">
-        <div className="mb-10 md:mb-16">
-          {/* <Image
+      <div className="py-24 mb-10 md:mb-16 ubrus drop-shadow-lg">
+        {/* <Image
             src="/images/malba_logo.png"
             width={400}
             height={300}
             className="pb-4 mx-auto text-center invert"
             alt="Malba logo"
           /> */}
-          <h2 className="hadvojka">Restaurace penzionu Malba</h2>
-        </div>
+        <h2 className="hadvojka">Restaurace penzionu Malba</h2>
+      </div>
+      <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="order-2">
             {/* <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
@@ -29,7 +29,11 @@ export default function Restaurace({ idScroll }) {
               />
             </div> */}
             <div className="pt-4 pb-8">
-              <Slider data="restaurace" klass="pt-8" vyska="h-64" />{" "}
+              <Slider
+                data="restaurace"
+                klass="pt-8 drop-shadow-lg"
+                vyska="h-64"
+              />{" "}
               {/* <p className="mb-2 text-gray-500 sm:mb-4 sm:text-lg">
                 Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
                 obědy, večeře, coffeebreaky, rožnění, grilování a rauty.
@@ -53,7 +57,7 @@ export default function Restaurace({ idScroll }) {
               Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,
               obědy, večeře, coffeebreaky, rožnění, grilování a rauty.
             </p>
-            <div className="hidden lg:block overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-[400px]">
+            <div className="hidden lg:block overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-[400px]">
               <Image
                 width={600}
                 height={400}

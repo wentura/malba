@@ -4,20 +4,13 @@ import { CenikMalbenka, CenikUbytovani } from "../cenikData";
 export default function Cenik({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+      <div className="py-24 mb-10 md:mb-16 ubrus drop-shadow-lg">
+        <h2 className="hadvojka">Ceník</h2>
+      </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
-        <div className="mb-10 md:mb-16">
-          {/* <Image
-            src="/images/malba_logo.png"
-            width={400}
-            height={300}
-            className="pb-4 mx-auto text-center invert"
-            alt="Malba logo"
-          /> */}
-          <h2 className="hadvojka">Ceník</h2>
-        </div>
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg shadow-lg lg:h-full">
+            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg drop-shadow-lg lg:h-full">
               <Image
                 width={600}
                 height={800}

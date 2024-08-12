@@ -3,28 +3,21 @@ import React from "react";
 
 export default function Historie({ idScroll }) {
   return (
-    <div className="bg-white py-8 sm:py-12 lg:py-24" id={idScroll}>
-      <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="mb-10 md:mb-16">
-          {/* <Image
-            src="/images/malba_logo.png"
-            width={400}
-            height={300}
-            className="invert text-center mx-auto pb-4"
-            alt="Malba logo"
-          /> */}
-          <h2 className="hadvojka">Historie penzionu Malba</h2>
-        </div>
+    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+      <div className="py-24 mb-10 md:mb-16 ubrus drop-shadow-lg">
+        <h2 className="hadvojka">Historie penzionu Malba</h2>
+      </div>
+      <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-full">
+            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg drop-shadow-lg lg:h-full">
               <Image
                 width={600}
                 height={800}
                 src="/images/m1/8.webp"
                 loading="lazy"
                 alt="současná podoba penzionu Malba"
-                className="h-full w-full object-cover object-center"
+                className="object-cover object-center w-full h-full"
               />
             </div>
           </div>

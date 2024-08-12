@@ -43,41 +43,41 @@ export default function RootLayout({ children }) {
           darkRow="lightRow"
         />
         <Ubytovani idScroll="ubytovani" />
-        <Row
+        {/* <Row
           title="prvni row"
           text="nejak claim jak svina"
           bgImgClass="rowMalbenka hidden md:block"
           darkRow="lightRow"
-        />
+        /> */}
 
         <Restaurace idScroll="restaurace" />
-        <Row
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test2"
           darkRow="lightRow"
-        />
+        /> */}
         <FiremniAkce idScroll="firemni-akce-svatby" />
-        <Row
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test3"
           darkRow="lightRow"
-        />
+        /> */}
         <Rekreace idScroll="rekreace" />
-        <Row
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
-        />
+        /> */}
         <Historie idScroll="historie" />
-        <Row
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
-        />
+        /> */}
         <Cenik idScroll="cenik" />
         <Contact idScroll="kontakt" />
         <Footer />

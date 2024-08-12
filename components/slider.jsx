@@ -11,10 +11,7 @@ import "./slider.css";
 
 import { EffectCards } from "swiper/modules";
 
-export default function Slider(
-  { data = "ubytovani", klass = "h-32" },
-  vyska = "h-32"
-) {
+export default function Slider({ data = "ubytovani", klass = "h-32" }) {
   let slides = [];
   if (data === "ubytovani") {
     slides = [

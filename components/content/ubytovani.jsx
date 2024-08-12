@@ -7,6 +7,16 @@ import UbytovaniAccordion from "./ubytovaniAccordion";
 export default function Ubytovani({ idScroll }) {
   return (
     <div className="pt-0 pb-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+      <div className="block h-64 mb-4 overflow-hidden drop-shadow-lg md:hidden">
+        <Image
+          width={600}
+          height={400}
+          src="/images/malba2.webp"
+          loading="lazy"
+          alt="chata Malběnka"
+          className="object-cover object-center w-full h-full"
+        />
+      </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         {/* <div className="hidden mb-10 md:mb-16 md:block">
           <Image
@@ -18,39 +28,29 @@ export default function Ubytovani({ idScroll }) {
           />
         </div> */}
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
-          <div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-[400px] block md:hidden">
-              <Image
-                width={600}
-                height={400}
-                src="/images/malba2.webp"
-                loading="lazy"
-                alt="chata Malběnka"
-                className="object-cover object-center w-full h-full"
-              />
-            </div>
-            <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden md:block">
-              <Image
-                height={400}
-                width={800}
-                src="/images/malba.webp"
-                loading="lazy"
-                alt="penzion Malba"
-                className="hidden object-cover object-center w-full h-full md:block"
-              />
-            </div>
+          <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden md:block">
+            <Image
+              height={400}
+              width={800}
+              src="/images/malba.webp"
+              loading="lazy"
+              alt="penzion Malba"
+              className="hidden object-cover object-center w-full h-full md:block"
+            />
           </div>
+
           <div className="md:pt-8">
-            <p className="mb-6 text-3xl font-bold text-center md:mb-0 md:text-base md:text-gray-500 md:text-left">
+            <p className="hidden mb-6 font-bold text-center md:flex md:mb-0 md:text-base md:text-gray-500 md:text-left">
               ubytování
             </p>
             <h1 className="hidden mb-4 text-2xl font-bold text-center text-gray-800 md:flex sm:text-3xl md:mb-6 md:text-left">
               penzion Malba
             </h1>
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Penzion je rozdělen do dvou budov, větší ubytovací, menší
-              stravovací a školící. Celková ubytovací kapacita penzionu je 31
-              lůžek v 11 pokojích a chata Malběnka je pro 3 osoby.
+              <strong>Penzion je rozdělen do dvou budov</strong>, větší
+              ubytovací, menší stravovací a školící. Celková ubytovací kapacita
+              penzionu je 31 lůžek v 11 pokojích a chata Malběnka je pro 3
+              osoby.
             </p>
             <UbytovaniAccordion />
             <p className="my-4 text-lg font-semibold md:mb-4 md:text-right">
@@ -74,18 +74,19 @@ export default function Ubytovani({ idScroll }) {
                 className="object-cover object-center w-full h-full"
               />
             </div> */}
-            <Slider data="ubytovani" klass="pt-8 drop-shadow-lg" vyska="h-64" />
+            <Slider data="ubytovani" klass="pt-8 drop-shadow-lg h-96" />
           </div>
-          <div className="md:pt-8">
-            <p className="font-bold text-center text-gray-500 md:text-left">
+          <div className="pt-4 md:pt-8">
+            <p className="hidden font-bold text-center text-gray-500 md:flex md:text-left">
               ubytování
             </p>
-            <h1 className="mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+            <h1 className="hidden mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               chata Malběnka{" "}
             </h1>
             <p className="mb-4 text-gray-500 sm:text-lg">
-              Malběnka je{" "}
-              <strong>exklusivní zrenovovaný samostatný objekt na skále</strong>{" "}
+              <strong>
+                Malběnka je exklusivní zrenovovaný samostatný objekt na skále
+              </strong>{" "}
               nad penzionem Malba.
             </p>
             <p className="mb-4 text-gray-500 sm:text-lg">

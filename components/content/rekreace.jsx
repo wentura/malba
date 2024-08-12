@@ -4,15 +4,7 @@ import React from "react";
 export default function Rekreace({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="py-24 mb-10 bg-red-200 md:mb-16 ubrus drop-shadow-lg">
-        {/* <div className="mb-10 md:mb-16"> */}
-        {/* <Image
-            src="/images/malba_logo.png"
-            width={400}
-            height={300}
-            className="pb-4 mx-auto text-center invert"
-            alt="Malba logo"
-          /> */}
+      <div className="py-8 mb-10 bg-red-200 md:py-24 md:mb-16 ubrus drop-shadow-lg">
         <h2 className="hadvojka">Rekreace na Kokořínsku</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">

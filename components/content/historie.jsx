@@ -4,7 +4,7 @@ import React from "react";
 export default function Historie({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="py-24 mb-10 md:mb-16 ubrus drop-shadow-lg">
+      <div className="py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg">
         <h2 className="hadvojka">Historie penzionu Malba</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">

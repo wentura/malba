@@ -40,10 +40,10 @@ export default function Slider({ data = "ubytovani", klass = "h-32" }) {
         effect="cards"
         grabCursor={true}
         modules={[EffectCards]}
-        className="swiper mySwiper"
+        className="slider"
       >
         {slides.map((slide) => (
-          <SwiperSlide key={slide} className="swiper-slide">
+          <SwiperSlide key={slide} className="slider-slide">
             <Image
               src={`/images/${slide}.webp`}
               alt="restaurace penzionu Malba"

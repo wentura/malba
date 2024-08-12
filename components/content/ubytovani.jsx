@@ -2,20 +2,14 @@ import Slider from "@/components/slider";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Carousel from "../carousel/carousel";
 import { Content } from "../contentData";
 import UbytovaniAccordion from "./ubytovaniAccordion";
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="pt-0 pb-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="block h-64 mb-4 overflow-hidden drop-shadow-lg md:hidden">
-        <Image
-          width={600}
-          height={400}
-          src="/images/malba2.webp"
-          loading="lazy"
-          alt="chata Malběnka"
-          className="object-cover object-center w-full h-full"
-        />
+    <div className="pt-0 pb-8 bg-white sm:py-2 lg:py-24" id={idScroll}>
+      <div className="w-full mb-8 md:hidden">
+        <Carousel />
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         {/* <div className="hidden mb-10 md:mb-16 md:block">

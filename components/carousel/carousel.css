@@ -1,0 +1,19 @@
+.swiperCarousel {
+  width: 100%;
+  height: 300px;
+}
+.swiperSlideCarousel {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiperSlideCarousel img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

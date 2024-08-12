@@ -34,6 +34,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         {children}
+
         <Hero />
         <StrucneVyhody />
         <Row

@@ -27,7 +27,7 @@ export default function Carousel() {
       className="swiperCarousel"
     >
       {slides.map((slide) => (
-        <SwiperSlide className="swiperSlideCarousel">
+        <SwiperSlide className="swiperSlideCarousel" key={"slide"}>
           <Image
             src={`/images/${slide}.webp`}
             alt="restaurace penzionu Malba"

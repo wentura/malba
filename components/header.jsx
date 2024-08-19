@@ -4,7 +4,7 @@ import React from "react";
 import Navigation from "./nav";
 export default function Header() {
   return (
-    <header className="flex items-center justify-between px-6 pb-1 mb-0 md:pt-2 2xl:px-0 md:mb-2">
+    <header className="flex items-center justify-between p-2 pb-0 mb-0 md:pt-2 2xl:px-0 md:mb-2">
       <Link href="/">
         <Image
           src="/images/malba_logo.png"

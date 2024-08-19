@@ -6,11 +6,11 @@ import Navigation from "./nav";
 import { navi } from "./navData";
 export default function Footer() {
   return (
-    <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
-      <footer className="mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="flex flex-col md:justify-between gap-4 py-6 md:flex-row">
+    <div className="pt-4 bg-white sm:pt-10 lg:pt-12">
+      <footer className="max-w-screen-xl px-4 mx-auto md:px-8">
+        <div className="flex flex-col gap-4 py-6 md:justify-between md:flex-row">
           <div className="hidden md:flex md:flex-col">
-            <nav className="hidden gap-1 lg:flex lg:flex-col text-gray-500">
+            <nav className="hidden gap-1 text-gray-500 lg:flex lg:flex-col">
               {navi.map((navig) => {
                 return (
                   <Link key={navig.id} href={navig.route}>
@@ -27,7 +27,7 @@ export default function Footer() {
               <li>277 23</li>
               <li>Kokořín</li>
             </ul>
-            <ul className="mb-6 text-gray-500  md:mb-8">
+            <ul className="mb-6 text-gray-500 md:mb-8">
               <li>
                 <a href="tel:+420603461723" className="odkaz">
                   +420 603 461 723
@@ -51,7 +51,7 @@ export default function Footer() {
               src="/images/malba_logo.png"
               width={200}
               height={150}
-              className="invert text-center mx-auto pb-4"
+              className="pb-4 mx-auto text-center invert"
               alt="Malba logo"
             />
           </div>
@@ -64,7 +64,7 @@ export default function Footer() {
               className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 width={24}
                 height={24}
                 viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ export default function Footer() {
               className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 width={24}
                 height={24}
                 viewBox="0 0 24 24"
@@ -98,7 +98,7 @@ export default function Footer() {
               className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 width={24}
                 height={24}
                 viewBox="0 0 24 24"
@@ -115,7 +115,7 @@ export default function Footer() {
               className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600"
             >
               <svg
-                className="h-5 w-5"
+                className="w-5 h-5"
                 width={24}
                 height={24}
                 viewBox="0 0 24 24"
@@ -128,14 +128,14 @@ export default function Footer() {
           {/* </div> */}
           {/* social - end */}
         </div>
-        <div className="py-8 text-center text-sm text-malba-200">
+        <div className="py-8 text-sm text-center text-malba-200">
           penzion Malba © 2024{" "}
           <a href="https://zbyneksvoboda.cz" target="_blank" className="odkaz">
             web Zbyněk Svoboda
           </a>
         </div>
       </footer>
-      <Matomo />
+      {/* <Matomo /> */}
     </div>
   );
 }

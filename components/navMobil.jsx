@@ -10,7 +10,7 @@ export default function MenuMobilni() {
   }
   return (
     <div className="mobilniMenu">
-      <button className="flex justify-end p-4 lg:hidden" onClick={toggleMenu}>
+      <button className="flex justify-end p-2 lg:hidden" onClick={toggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -47,14 +47,14 @@ export default function MenuMobilni() {
             ></path>
           </svg>
         </button>
-        <ul className="flex flex-col gap-y-2 w-full items-center text-xl my-2">
+        <ul className="flex flex-col items-center w-full my-2 text-xl gap-y-2">
           <li className="flex px-8 py-4 max-h-48" key="home">
             <Link href="/" className="">
               <Image
                 src="/images/malba_logo.png"
                 width={300}
                 height={200}
-                className="invert text-center mx-auto pb-4 max-h-32"
+                className="pb-4 mx-auto text-center invert max-h-32"
                 alt="Malba logo"
               />
             </Link>{" "}

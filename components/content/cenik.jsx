@@ -34,7 +34,7 @@ export default function Cenik({ idScroll }) {
             <ul className="mb-4">
               {CenikUbytovani.map((cenaM) => {
                 return (
-                  <li key="a" className="text-gray-500">
+                  <li key={cenaM.id} className="text-gray-500">
                     <strong>{cenaM.cena}</strong> Kč - {cenaM.text}
                   </li>
                 );
@@ -71,7 +71,7 @@ export default function Cenik({ idScroll }) {
               {CenikMalbenka.map((cenaM) => {
                 return (
                   <li
-                    key="a"
+                    key={cenaM}
                     className="text-gray-500"
                     dangerouslySetInnerHTML={{ __html: cenaM }}
                   ></li>

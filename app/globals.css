@@ -31,7 +31,9 @@
     background-size: 100px;
   }
 }
-
+* {
+  /* border: red 1px solid; */
+}
 .bg-kartaVyhod {
   background-color: transparent;
   backdrop-filter: blur(10px);

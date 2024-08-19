@@ -1,12 +1,12 @@
 export const CenikUbytovani = [
-  { cena: "690", text: "vícedenní pobyt" },
-  { cena: "490", text: "vícedenní dítě 3–10 let" },
-  { cena: "990", text: "jednodenní pobyt" },
-  { cena: "690", text: "jednodenní dítě 3–10 let" },
-  { cena: "200", text: "snídaně na penzionu Malba" },
-  { cena: "150", text: "dětská snídaně na penzionu Malba" },
-  { cena: "300", text: "domácí zvířecí mazlíček (pes, kočka...)" },
-  { cena: "300", text: "neobsazené lůžko, na pokoji jen jedna osoba" },
+  { id: 1, cena: "690", text: "vícedenní pobyt" },
+  { id: 2, cena: "490", text: "vícedenní dítě 3–10 let" },
+  { id: 3, cena: "990", text: "jednodenní pobyt" },
+  { id: 4, cena: "690", text: "jednodenní dítě 3–10 let" },
+  { id: 5, cena: "200", text: "snídaně na penzionu Malba" },
+  { id: 6, cena: "150", text: "dětská snídaně na penzionu Malba" },
+  { id: 7, cena: "300", text: "domácí zvířecí mazlíček (pes, kočka...)" },
+  { id: 8, cena: "300", text: "neobsazené lůžko, na pokoji jen jedna osoba" },
 ];
 export const CenikMalbenka = [
   "<strong>2.800</strong> Kč / noc / chata",

@@ -12,7 +12,7 @@ export const data = [
     body: "podávaná formou studeného bufetu s teplými a studenými nápoji, ovocem a zeleninou uzeninou a sýry, cereáliemi a domácím pečivem. Večeře Vám nabídneme a pro skupiny umíme kompletní stravování.",
   },
   {
-    title: "Připojení k internetu je zdarma pomocí Wi–Fi.",
+    title: "Wi–Fi připojení k internetu je zdarma.",
     body: "V případě potřeby Vám rádi zapůjčíme dětskou postýlku. K dispozici je společná čajová kuchyňka (konvice, lednice, mikrovlnka) s posezením, venkovní posezení na terase, posezení u ohně s grilem nebo i jeskynní posezení s výčepem a krbovou vložkou.",
   },
   {

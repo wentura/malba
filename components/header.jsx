@@ -4,14 +4,14 @@ import React from "react";
 import Navigation from "./nav";
 export default function Header() {
   return (
-    <header className="px-6 2xl:px-0 mb-2 flex items-center justify-between py-4 md:mb-2">
+    <header className="flex items-center justify-between px-6 pb-1 mb-0 md:pt-2 2xl:px-0 md:mb-2">
       <Link href="/">
         <Image
           src="/images/malba_logo.png"
           alt="penzion Malba - logo"
           height={100}
           width={200}
-          className="invert h-12 w-32"
+          className="w-32 h-12 invert"
         />
       </Link>
       <Navigation />

@@ -34,7 +34,7 @@ export default function Restaurace({ idScroll }) {
             </div>
           </div>
           <div className="order-1 md:pt-4">
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="my-4 text-gray-500 sm:text-lg">
               <strong>
                 Základem stravování je u nás dobrá snídaně podávaná formou
                 studeného bufetu
@@ -55,7 +55,7 @@ export default function Restaurace({ idScroll }) {
                 width={600}
                 height={400}
                 // src="/images/restaurace.webp"
-                src="/images/mr3.webp"
+                src="/images/malba/malba2.webp"
                 loading="lazy"
                 alt="restaurace penzionu Malba"
                 className="object-cover object-center w-full h-full"

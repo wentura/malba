@@ -24,8 +24,9 @@ module.exports = {
       },
       colors: {
         mabla: {
-          10: "#f0f0f0",
+          10: "#ebe0e6",
           20: "#f0ad5d",
+          30: "#eee5c1",
           50: "#c69024",
           70: "#a8b157",
           80: "#536b13",

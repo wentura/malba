@@ -10,11 +10,11 @@ export default function Historie({ idScroll }) {
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div>
-            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg drop-shadow-lg lg:h-full">
+            <div className="overflow-hidden rounded-lg h-96 drop-shadow-lg lg:h-full">
               <Image
-                width={600}
-                height={800}
-                src="/images/m1/8.webp"
+                width={800}
+                height={1000}
+                src="/images/malba/m3.webp"
                 loading="lazy"
                 alt="současná podoba penzionu Malba"
                 className="object-cover object-center w-full h-full"

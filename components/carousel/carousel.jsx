@@ -14,7 +14,14 @@ import "./carousel.css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Carousel() {
-  const slides = ["malba2", "mr7", "mr3"];
+  const slides = [
+    "malba/malba2",
+    "koko/4",
+    "malba/m1",
+    "malba/12",
+    "malbenka/m3",
+    "koko/6",
+  ];
   return (
     <Swiper
       autoplay={{

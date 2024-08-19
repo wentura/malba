@@ -9,18 +9,25 @@ export default function Rekreace({ idScroll }) {
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
-          <div>
-            <div className="h-64 overflow-hidden bg-gray-100 rounded-lg drop-shadow-lg lg:h-full">
-              <Image
-                width={600}
-                height={800}
-                src="/images/m1/13.webp"
-                loading="lazy"
-                alt="pohled na ponzion Malba"
-                className="object-cover object-center w-full h-full"
-              />
-            </div>
+          <div className="overflow-hidden rounded-lg h-96 drop-shadow-lg lg:h-full">
+            <Image
+              width={600}
+              height={800}
+              src="/images/koko/6.webp"
+              loading="lazy"
+              alt="pohled na ponzion Malba"
+              className="object-cover object-center w-full h-full rounded-lg lg:h-1/2 lg`:mb-2"
+            />
+            <Image
+              width={600}
+              height={800}
+              src="/images/mic/1.webp"
+              loading="lazy"
+              alt="pohled na ponzion Malba"
+              className="hidden object-cover object-center w-full rounded-lg lg:mt-2 lg:block lg:h-1/2"
+            />
           </div>
+
           <div className="md:pt-8">
             <p className="mb-4 text-gray-500 sm:text-lg">
               Rádi Vám poradíme s výběrem tras a turistických cílů. Informujte

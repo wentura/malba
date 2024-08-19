@@ -1,3 +1,4 @@
+import AboutMalba from "@/components/content/aboutMalba";
 import Cenik from "@/components/content/cenik";
 import Contact from "@/components/content/contact";
 import FiremniAkce from "@/components/content/firemniAkce";
@@ -9,7 +10,6 @@ import StrucneVyhody from "@/components/contentStrucneVyhody";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import Row from "@/components/row";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import "./globals.css";
@@ -37,12 +37,8 @@ export default function RootLayout({ children }) {
 
         <Hero />
         <StrucneVyhody />
-        <Row
-          title="ubytování s pohádkovým výhledem"
-          text=""
-          bgImgClass="row test hidden md:block"
-          darkRow="lightRow"
-        />
+        <AboutMalba />
+
         <Ubytovani idScroll="ubytovani" />
         {/* <Row
           title="prvni row"

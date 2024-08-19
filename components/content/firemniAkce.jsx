@@ -13,10 +13,10 @@ export default function FiremniAkce({ idScroll }) {
               <Image
                 width={640}
                 height={480}
-                src="/images/malba/gril.webp"
+                src="/images/mic/restaurace.webp"
                 loading="lazy"
                 alt="grilování, penzion Malba"
-                className="object-cover object-center w-full h-full"
+                className="object-cover object-center w-full h-full "
               />
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function FiremniAkce({ idScroll }) {
             <Image
               width={640}
               height={480}
-              src="/images/m1/2.webp"
+              src="/images/mic/msp2.webp"
               loading="lazy"
               alt="grilování, penzion Malba"
               className="object-cover object-center w-full h-full"

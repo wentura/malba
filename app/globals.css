@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer utilities {
   .bg-hotel {
-    background: rgba(0, 0, 0, 0.08) url("/images/malba2.webp");
+    background: rgba(0, 0, 0, 0.08) url("/images/malba/malba2.webp");
     background-blend-mode: darken;
     background-position: center center;
     background-size: cover;
@@ -21,12 +21,17 @@
   .lightRow {
     @apply text-gray-200;
   }
+  .rowUbrus {
+    background: url("/ubrus2.png");
+    background-size: 100px !important;
+  }
   .ubrus {
     background: url("/ubrus2.png");
     background-position: top left;
     background-size: 100px;
   }
 }
+
 .bg-kartaVyhod {
   background-color: transparent;
   backdrop-filter: blur(10px);

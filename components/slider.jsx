@@ -15,23 +15,29 @@ export default function Slider({ data = "ubytovani", klass = "h-32" }) {
   let slides = [];
   if (data === "ubytovani") {
     slides = [
-      "m5",
-      "m4",
-      "m3",
-      "m2",
-      "m1",
-      "malba2",
-      "mr7",
-      "mr6",
-      "mp8",
-      "mp5",
-      "mp1",
-      "mp3",
-      "mp2",
+      "malba/m3",
+      "malbenka/m3",
+      "malba/ml",
+      "pokoje/mr5",
+      "pokoje/mp8",
+      "pokoje/mr7",
+      "pokoje/mp1",
+      "malbenka/m1",
+      "malbenka/m2",
+      "malbenka/7",
+      "koko/5",
     ];
   }
   if (data === "restaurace") {
-    slides = ["mr1", "mr2", "mr3", "mr4"];
+    slides = [
+      "mic/restaurace",
+      "mic/mr3",
+      "mic/ms2",
+      "mic/3",
+      "mic/mr1",
+      "mic/gril",
+      "mic/g1",
+    ];
   }
 
   return (

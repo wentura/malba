@@ -10,7 +10,7 @@ export default function UbytovaniAccordion() {
       selectionMode="multiple"
       isCompact
       variant="splitted"
-      defaultExpandedKeys={["1"]}
+      // defaultExpandedKeys={["1"]}
       className="text-gray-500 focus:outline-none accordion sm:text-lg "
     >
       {data.map((item) => {

@@ -4,13 +4,23 @@ import Link from "next/link";
 import React from "react";
 import Carousel from "../carousel/carousel";
 import { Content } from "../contentData";
+import Row from "../row";
+import AboutMalba from "./aboutMalba";
 import UbytovaniAccordion from "./ubytovaniAccordion";
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="pt-0 pb-8 bg-white sm:py-2 lg:py-24" id={idScroll}>
+    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+      <Row
+        title="Ubytování s pohádkovým výhledem"
+        text=""
+        bgImgClass="rowUbrus hidden md:block"
+        darkRow="darkRow"
+      />
       <div className="w-full mb-8 md:hidden">
         <Carousel />
       </div>
+
+      <AboutMalba klass="block md:hidden mb-4" />
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         {/* <div className="hidden mb-10 md:mb-16 md:block">
           <Image
@@ -68,7 +78,10 @@ export default function Ubytovani({ idScroll }) {
                 className="object-cover object-center w-full h-full"
               />
             </div> */}
-            <Slider data="ubytovani" klass="pt-8 drop-shadow-lg h-96" />
+            <Slider
+              data="ubytovani"
+              klass="pt-8 drop-shadow-lg h-96 md:mb-24"
+            />
           </div>
           <div className="pt-4 md:pt-8">
             <p className="hidden font-bold text-center text-gray-500 md:flex md:text-left">

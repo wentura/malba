@@ -14,7 +14,7 @@ export default function Cenik({ idScroll }) {
               <Image
                 width={600}
                 height={800}
-                src="/images/m1/12.webp"
+                src="/images/malba/12.webp"
                 loading="lazy"
                 alt="penzion Malba"
                 className="object-cover object-center w-full h-full"

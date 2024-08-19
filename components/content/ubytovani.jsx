@@ -36,7 +36,7 @@ export default function Ubytovani({ idScroll }) {
             <Image
               height={400}
               width={800}
-              src="/images/malba.webp"
+              src="/images/malba/ml.webp"
               loading="lazy"
               alt="penzion Malba"
               className="hidden object-cover object-center w-full h-full md:block"

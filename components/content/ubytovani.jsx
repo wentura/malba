@@ -44,12 +44,12 @@ export default function Ubytovani({ idScroll }) {
           </div>
 
           <div className="md:pt-8">
-            <p className="hidden mb-6 font-bold text-center md:flex md:mb-0 md:text-base md:text-gray-500 md:text-left">
+            {/* <p className="hidden mb-6 font-bold text-center md:flex md:mb-0 md:text-base md:text-gray-500 md:text-left">
               ubytování
             </p>
             <h1 className="hidden mb-4 text-2xl font-bold text-center text-gray-800 md:flex sm:text-3xl md:mb-6 md:text-left">
               penzion Malba
-            </h1>
+            </h1> */}
             <p className="mb-4 text-gray-500 sm:text-lg">
               <strong>Penzion je rozdělen do dvou budov</strong>, větší
               ubytovací, menší stravovací a školící. Celková ubytovací kapacita
@@ -84,12 +84,12 @@ export default function Ubytovani({ idScroll }) {
             />
           </div>
           <div className="pt-4 md:pt-8">
-            <p className="hidden font-bold text-center text-gray-500 md:flex md:text-left">
+            {/* <p className="hidden font-bold text-center text-gray-500 md:flex md:text-left">
               ubytování
             </p>
             <h1 className="hidden mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               chata Malběnka{" "}
-            </h1>
+            </h1> */}
             <p className="mb-4 text-gray-500 sm:text-lg">
               <strong>
                 Malběnka je exklusivní zrenovovaný samostatný objekt na skále

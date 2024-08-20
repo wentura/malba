@@ -85,3 +85,11 @@
   background-position: center center;
   background-size: cover;
 }
+.header-sticky {
+  position: fixed !important;
+  z-index: 10;
+  width: 100%;
+  top: 0px;
+  background-color: white;
+  scroll-padding: 150px !important;
+}

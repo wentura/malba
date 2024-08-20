@@ -1,6 +1,7 @@
 .slider {
   max-width: 400px;
   height: 500px;
+  overflow: none !important;
 }
 .slider-slide {
   display: flex;
@@ -10,9 +11,11 @@
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+  overflow: none !important;
 }
 @media screen and (max-width: 768px) {
   .slider {
+    overflow: none !important;
     max-width: 58vw;
     height: 350px;
   }

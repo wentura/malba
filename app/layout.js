@@ -26,16 +26,17 @@ export default function RootLayout({ children }) {
     <html
       lang="cs"
       // className="scroll-smooth scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
+      className="mx-auto overflow-x-hidden"
     >
-      <body className="mx-auto scroll-smooth max-w-[2500px] overflow-x-hidden">
+      <body className="max-w-screen-xl mx-auto scroll-smooth">
         <div className="sticky top-0 z-10 w-full bg-white">
-          <div className="container max-w-screen-xl mx-auto">
-            <Header />
-          </div>
+          {/* <div className="container max-w-screen-xl mx-auto"> */}
+          <Header />
+          {/* </div> */}
         </div>
         {children}
 
-        <Hero />
+        {/* <Hero /> */}
         <StrucneVyhody />
         <AboutMalba />
 

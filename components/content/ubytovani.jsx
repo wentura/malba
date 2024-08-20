@@ -9,7 +9,7 @@ import AboutMalba from "./aboutMalba";
 import UbytovaniAccordion from "./ubytovaniAccordion";
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+    <div className="py-4 bg-white md:py-12 lg:py-24" id={idScroll}>
       <Row
         title="Ubytování s pohádkovým výhledem"
         text=""

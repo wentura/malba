@@ -46,7 +46,7 @@ export default function Slider({ data = "ubytovani", klass = "h-32" }) {
         effect="cards"
         grabCursor={true}
         modules={[EffectCards]}
-        className="slider"
+        className="overflow-hidden slider"
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide} className="slider-slide">

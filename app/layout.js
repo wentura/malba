@@ -27,52 +27,56 @@ export default function RootLayout({ children }) {
       lang="cs"
       // className="scroll-smooth scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
     >
-      <body className="max-w-screen-xl mx-auto overflow-x-hidden scroll-smooth">
+      <body className="mx-auto overflow-x-hidden scroll-smooth">
         {/* <div className="container max-w-screen-xl mx-auto"> */}
-        <Header />
+        <header className="flex justify-center w-full header-sticky">
+          <Header />
+        </header>
         {/* </div> */}
         {/* {children} */}
-        {/* <Hero /> */}
-        {/* <StrucneVyhody /> */}
-        {/* <AboutMalba /> */}
-        {/* <Ubytovani idScroll="ubytovani" /> */}
-        {/* <Row
+        <main className="max-w-screen-xl mx-auto">
+          {/* <Hero /> */}
+          <StrucneVyhody />
+          <AboutMalba />
+          <Ubytovani idScroll="ubytovani" />
+          {/* <Row
           title="prvni row"
           text="nejak claim jak svina"
           bgImgClass="rowMalbenka hidden md:block"
           darkRow="lightRow"
         /> */}
-        <Restaurace idScroll="restaurace" />
-        {/* <Row
+          <Restaurace idScroll="restaurace" />
+          {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test2"
           darkRow="lightRow"
         /> */}
-        <FiremniAkce idScroll="firemni-akce-svatby" />
-        {/* <Row
+          <FiremniAkce idScroll="firemni-akce-svatby" />
+          {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test3"
           darkRow="lightRow"
         /> */}
-        <Rekreace idScroll="rekreace" />
-        {/* <Row
+          <Rekreace idScroll="rekreace" />
+          {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
         /> */}
-        <Historie idScroll="historie" />
-        {/* <Row
+          <Historie idScroll="historie" />
+          {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
         /> */}
-        <Cenik idScroll="cenik" />
-        <Contact idScroll="kontakt" />
-        {/* <Footer /> */}
+          <Cenik idScroll="cenik" />
+          <Contact idScroll="kontakt" />
+        </main>
+        <Footer />
       </body>
     </html>
   );

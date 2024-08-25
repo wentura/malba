@@ -1,4 +1,5 @@
 import Slider from "@/components/slider";
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,6 +8,11 @@ import { Content } from "../contentData";
 import Row from "../row";
 import AboutMalba from "./aboutMalba";
 import UbytovaniAccordion from "./ubytovaniAccordion";
+const inter = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
 export default function Ubytovani({ idScroll }) {
   return (
     <div className="py-4 bg-white md:py-12 lg:py-24" id={idScroll}>
@@ -17,6 +23,14 @@ export default function Ubytovani({ idScroll }) {
         darkRow="darkRow"
       />
       <div className="w-full mb-8 md:hidden">
+        <div className="absolute z-20 flex justify-center w-full text-3xl text-center text-white top-56">
+          <div
+            className={`${inter.className} shadow-lg bg-header max-w-fit px-4 py-2 rounded-md`}
+          >
+            exkluzivní ubytování v<br />
+            srdci Kokořínska
+          </div>
+        </div>
         <Carousel />
       </div>
 

@@ -31,8 +31,14 @@
     background-size: 100px;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 html {
-  /* scroll-behavior: smooth !important; */
+  scroll-behavior: smooth !important;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
 }
 .bg-kartaVyhod {
   background-color: transparent;
@@ -43,9 +49,20 @@ html {
     rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0.8)
   );
+
   /* background: rgba(255, 255, 255, 0.1) url("/ubrus.png"); */
   /* background-position: top left; */
   /* background-size: 100px; */
+}
+.bg-header {
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25)
+  );
 }
 .row {
   background-blend-mode: darken;

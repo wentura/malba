@@ -5,7 +5,7 @@ export default function StrucneVyhody() {
   return (
     <div
       // className="hidden py-6 bg-hotel sm:py-8 lg:pt-12 md:-mb-24 lg:-mb-52 xl:-mb-96 md:block"
-      className="hidden py-6 bg-hotel md:py-56 md:block md:mb-12 lg:mb-64 lg:py-16 md:mt-8"
+      className="hidden py-44 bg-hotel md:py-56 md:block md:mb-12 lg:mb-64 lg:py-16 md:mt-8"
       id="malba"
     >
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">

@@ -1,9 +1,17 @@
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
+const inter = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
 export default function Contact() {
   return (
     <div className="py-6 bg-white sm:py-8 lg:py-12" id="kontakt">
-      <div className="py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg">
+      <div
+        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
+      >
         <h2 className="hadvojka">Kontakt</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
@@ -65,13 +73,13 @@ export default function Contact() {
         </div>
       </div>
       <div className="mx-auto my-10 text-center md:my-16">
-        {/* <iframe
+        <iframe
           className="border-0 mx-auto min-h-[500px] max-w-screen-3xl"
           src="https://frame.mapy.cz/s/dadapegato"
           width="100%"
           height="100%"
           frameBorder="0"
-        /> */}
+        />
       </div>
     </div>
   );

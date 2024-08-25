@@ -1,10 +1,18 @@
 import Image from "next/image";
 import React from "react";
 import { CenikMalbenka, CenikUbytovani } from "../cenikData";
+import { Bebas_Neue } from "next/font/google";
+const inter = Bebas_Neue({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
 export default function Cenik({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div className="py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg">
+      <div
+        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
+      >
         <h2 className="hadvojka">Ceník</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">

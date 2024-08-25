@@ -7,9 +7,9 @@ export default function Navigation() {
     <div>
       {/* nav - start */}
       <nav className="hidden gap-12 lg:flex">
-        {navi.map((navig) => {
+        {navi.map((navig, index) => {
           return (
-            <Link key={navig.id} href={navig.route}>
+            <Link key={index} href={navig.route} scroll={true} replace>
               {navig.title}
             </Link>
           );

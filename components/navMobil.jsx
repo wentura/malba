@@ -49,7 +49,7 @@ export default function MenuMobilni() {
         </button>
         <ul className="flex flex-col items-center w-full my-2 text-xl gap-y-2">
           <li className="flex px-8 py-4 max-h-48" key="home">
-            <Link href="/" className="">
+            <Link href="/" className="" scroll={true}>
               <Image
                 src="/images/malba_logo.png"
                 width={300}
@@ -59,13 +59,14 @@ export default function MenuMobilni() {
               />
             </Link>{" "}
           </li>
-          {navi.map((navig) => {
+          {navi.map((navig, index) => {
             return (
-              <li className="flex py-2" key={navig.id}>
+              <li className="flex py-2" key={index}>
                 <Link
                   href={navig.route}
                   className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-yellow-600"
                   onClick={toggleMenu}
+                  scroll={true}
                 >
                   {navig.title}
                 </Link>

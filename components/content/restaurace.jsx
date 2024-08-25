@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 export default function Restaurace({ idScroll }) {
   return (
-    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+    <div className="py-8 bg-white sm:py-12 lg:py-24" id="restaurace">
       <div className="py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg">
         <h2 className="hadvojka">Restaurace penzionu Malba</h2>
       </div>
@@ -52,13 +52,13 @@ export default function Restaurace({ idScroll }) {
             </p>
             <div className="hidden lg:block overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-[400px]">
               <Image
-                width={600}
-                height={400}
                 // src="/images/restaurace.webp"
                 src="/images/malba/malba2.webp"
                 loading="lazy"
                 alt="restaurace penzionu Malba"
-                className="object-cover object-center w-full h-full"
+                width={600}
+                height={400}
+                className="object-cover object-center h-full"
               />
             </div>
           </div>

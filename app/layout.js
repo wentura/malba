@@ -23,17 +23,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="cs"
-      // className="scroll-smooth scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
-    >
-      <body className="mx-auto overflow-x-hidden scroll-smooth">
+    <html lang="cs" className="scroll-smooth">
+      <body
+        className="scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 max-w-[2500px] mx-auto"
+        id="top"
+      >
         {/* <div className="container max-w-screen-xl mx-auto"> */}
         <header className="flex justify-center w-full header-sticky">
-          <Header />
+          {/* <Header /> */}
+          {children}
         </header>
         {/* </div> */}
-        {/* {children} */}
         <main className="max-w-screen-xl mx-auto">
           {/* <Hero /> */}
           <StrucneVyhody />

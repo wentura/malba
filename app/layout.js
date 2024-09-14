@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="cs" className="scroll-smooth">
       <body
-        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8"
+        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 lato-light"
         id="top"
       >
         <header className="max-w-full mx-auto header-sticky">

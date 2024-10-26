@@ -1,17 +1,19 @@
 "use client";
-
 import Image from "next/image";
 import React, { useRef, useState } from "react";
-import "swiper/css";
-import "swiper/css/effect-cards";
-import "swiper/css/navigation";
-
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./slider.css";
 
-import { EffectCards } from "swiper/modules";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 
-export default function Slider({ data = "ubytovani", klass = "h-32" }) {
+// import "./carousel/carousel.css";
+
+// import required modules
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+
+export default function Slider({ data = "ubytovani" }) {
   let slides = [];
   if (data === "ubytovani") {
     slides = [
@@ -28,38 +30,40 @@ export default function Slider({ data = "ubytovani", klass = "h-32" }) {
       "koko/5",
     ];
   }
-  if (data === "restaurace") {
-    slides = [
-      "mic/restaurace",
-      "mic/mr3",
-      "mic/ms2",
-      "mic/3",
-      "mic/mr1",
-      "mic/gril",
-      "mic/g1",
-    ];
-  }
+  // if (data === "restaurace") {
+  //   slides = [
+  //     "mic/restaurace",
+  //     "mic/mr3",
+  //     "mic/ms2",
+  //     "mic/3",
+  //     "mic/mr1",
+  //     "mic/gril",
+  //     "mic/g1",
+  //   ];
+  // }
 
   return (
-    <div className={`${klass}`}>
-      <Swiper
-        effect="cards"
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="overflow-hidden slider"
-      >
-        {slides.map((slide) => (
-          <SwiperSlide key={slide} className="slider-slide">
-            <Image
-              src={`/images/${slide}.webp`}
-              alt="restaurace penzionu Malba"
-              height={600}
-              width={500}
-              className="object-cover object-center w-full h-full md:block"
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+    <Swiper
+      autoplay={{
+        delay: 1500,
+        disableOnInteraction: false,
+      }}
+      navigation={false}
+      pagination={false}
+      modules={[Pagination, Autoplay, Navigation]}
+      className="swiperUbytovani max-h-[400px] overflow-hidden "
+    >
+      {slides.map((slide) => (
+        <SwiperSlide className="swiperSlideCarouselUbytovani" key={slide}>
+          <Image
+            src={`/images/${slide}.webp`}
+            alt="Penzion Malba"
+            height={600}
+            width={600}
+            className="object-cover object-center w-full h-full"
+          />
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 }

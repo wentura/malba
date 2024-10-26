@@ -1,7 +1,7 @@
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import { CenikMalbenka, CenikUbytovani } from "../cenikData";
-import { Bebas_Neue } from "next/font/google";
 const inter = Bebas_Neue({
   subsets: ["latin"],
   weight: "400",
@@ -10,9 +10,7 @@ const inter = Bebas_Neue({
 export default function Cenik({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div
-        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
-      >
+      <div className={`${inter.className} ubrus ubrusOdsazeni`}>
         <h2 className="hadvojka">Ceník</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
@@ -36,19 +34,17 @@ export default function Cenik({ idScroll }) {
             <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               penzion Malba
             </h1>
-            <p className="mb-4 text-gray-500 sm:text-lg">
-              Cena ubytování za osobu a noc bez snídaně:
-            </p>
+            <p className="mb-4  ">Cena ubytování za osobu a noc bez snídaně:</p>
             <ul className="mb-4">
               {CenikUbytovani.map((cenaM) => {
                 return (
-                  <li key={cenaM.id} className="text-gray-500">
+                  <li key={cenaM.id} className="">
                     <strong>{cenaM.cena}</strong> Kč - {cenaM.text}
                   </li>
                 );
               })}
             </ul>
-            <p className="mb-12 text-gray-500 sm:text-lg">
+            <p className="mb-12  ">
               Pro bližší informace nás kontaktujte, rádi Vám uděláme konkrétní
               nabídku.
             </p>
@@ -58,7 +54,7 @@ export default function Cenik({ idScroll }) {
             <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               školící místnost
             </h1>
-            <p className="mb-12 text-gray-500 sm:text-lg">
+            <p className="mb-12  ">
               Cena za pronájem je 4.000 Kč denně.
               <br />
               <br />
@@ -72,7 +68,7 @@ export default function Cenik({ idScroll }) {
             <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               chata Malběnka
             </h1>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Cena ubytování za <b>celou chatu Malběnka</b> bez snídaně:
             </p>
             <ul className="mb-4">
@@ -80,7 +76,7 @@ export default function Cenik({ idScroll }) {
                 return (
                   <li
                     key={cenaM}
-                    className="text-gray-500"
+                    className=""
                     dangerouslySetInnerHTML={{ __html: cenaM }}
                   ></li>
                 );

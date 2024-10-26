@@ -4,23 +4,21 @@ import React from "react";
 import "./ubytovaniAccordion.css";
 import { data } from "./ubytovaniAccordionData.js";
 export default function UbytovaniAccordion() {
-  let x = 0;
   return (
     <Accordion
       selectionMode="multiple"
       isCompact
       variant="splitted"
-      // defaultExpandedKeys={["1"]}
-      className="text-gray-500 focus:outline-none accordion sm:text-lg "
+      defaultExpandedKeys={["0"]}
+      className="focus:outline-none accordion "
     >
-      {data.map((item) => {
-        x++;
+      {data.map((item, index) => {
         return (
           <AccordionItem
-            key={x}
+            key={index}
             aria-label={item.title}
             title={item.title}
-            className="mb-2 text-gray-500 focus:outline-none accordion-item sm:text-lg"
+            className="mb-2  focus:outline-none accordion-item"
           >
             {item.body}
           </AccordionItem>

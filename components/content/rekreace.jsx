@@ -1,6 +1,6 @@
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
-import { Bebas_Neue } from "next/font/google";
 const inter = Bebas_Neue({
   subsets: ["latin"],
   weight: "400",
@@ -9,9 +9,7 @@ const inter = Bebas_Neue({
 export default function Rekreace({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div
-        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
-      >
+      <div className={`${inter.className} ubrus ubrusOdsazeni`}>
         <h2 className="hadvojka">Rekreace na Kokořínsku</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
@@ -23,7 +21,7 @@ export default function Rekreace({ idScroll }) {
               src="/images/koko/6.webp"
               loading="lazy"
               alt="pohled na ponzion Malba"
-              className="object-cover object-center w-full h-full rounded-lg lg:h-1/2 lg`:mb-2"
+              className="object-cover object-center w-full h-full rounded-lg lg:h-1/2 lg:mb-2"
             />
             <Image
               width={600}
@@ -36,12 +34,12 @@ export default function Rekreace({ idScroll }) {
           </div>
 
           <div className="md:pt-8">
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Rádi Vám poradíme s výběrem tras a turistických cílů. Informujte
               se o nabídce sportovního vybavení a aktivit. Stolní tenis a
               pétanque Vám zapůjčíme zdarma.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>
                 Pro vyznavače aktivního odpočinku se nabízí bezpočet možností
                 pěších výletů po turisticky značených stezkách i po četných
@@ -51,7 +49,7 @@ export default function Rekreace({ idScroll }) {
               a skalní útvary zvané Pokličky (2,5 km). Mezi další atraktivní
               cíle patří hrad Houska, Obří hlava, Žába či skalní Bludiště.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>
                 Kokořínsko je populární mezi znalci cykloturistiky
               </strong>{" "}
@@ -67,14 +65,14 @@ export default function Rekreace({ idScroll }) {
                 WWW.KOKOSTEZKY.CZ
               </a>
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Kokořínsko je oblastí pískovcového skalního lezení. Správcem skal
               je Lezecký klub Mšeno, který vydal i průvodce oblastí pod názvem
               Dubské skály. Je tu i pár boulderových oblastí. Koupání je možné
               na 4 km vzdáleném rybníce Harasov nebo městském koupališti ve
               Mšeně. Máchovo jezero je vzdálené 20 km.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Rybaření můžeme nabídnout na soukromém revíru Harasov, se kterým
               úzce spolupracujeme. Další informace včetně ceníku Vám zašleme
               e-mailem.{" "}
@@ -86,8 +84,8 @@ export default function Rekreace({ idScroll }) {
                 www.harasov.eu
               </a>
             </p>
-            <p className="mb-1 text-gray-500 sm:text-lg">Pujčovna Harasov:</p>
-            <ul className="pl-6 text-gray-500 list-disc">
+            <p className="mb-1  ">Pujčovna Harasov:</p>
+            <ul className="pl-6 list-disc">
               <li>kolo TREK MTB hard - 500 Kč / den</li>
               <li>kolo TREK MTB full - 1200 Kč / den</li>
               <li>E-kolo TREK cestovní - 800 Kč / den</li>

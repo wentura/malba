@@ -9,9 +9,7 @@ const inter = Bebas_Neue({
 export default function FiremniAkce({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div
-        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
-      >
+      <div className={`${inter.className} ubrusOdsazeni ubrus `}>
         <h2 className="hadvojka">Firemní, skupinové akce a svatby</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
@@ -29,13 +27,13 @@ export default function FiremniAkce({ idScroll }) {
             </div>
           </div>
           <div className="md:pt-8">
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>
                 Restaurace penzionu není otevřena pro veřejnost a firmy tu
                 najdou dostatek klidu a soukromí.
               </strong>
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>Kapacita hlavní školicí místnosti je max. 40 osob</strong>{" "}
               a nachází se v patře nad restaurací, kterou lze také využít až pro
               60 osob. Uspořádání místností je variabilní a lze je vybavit
@@ -44,7 +42,7 @@ export default function FiremniAkce({ idScroll }) {
               flipchart. Pro menší týmy je možné využít i další menší prostory
               penzionu.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>
                 Pro skupiny jsme schopni zajistit celodenní stravování
               </strong>
@@ -68,12 +66,12 @@ export default function FiremniAkce({ idScroll }) {
             />
           </div>
           <div className="md:pt-4 lg:pt-8">
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Poradíme Vám s procházkou nebo i s výběrem lokality pro outdoorové
               aktivity. Nabízíme exkluzivní noční návštěvy hradů Kokořín a
               Houska.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Jsme schopni s našimi partnery zajistit další aktivity jako{" "}
               <strong>
                 paintball, skalní lezení, stromo lezení nebo i připravit celý
@@ -81,11 +79,11 @@ export default function FiremniAkce({ idScroll }) {
               </strong>{" "}
               dle individuálních požadavků.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Pro svatby standardně nabízíme svatební víkendy, které kalkulujeme
               individuálně podle přání hostů.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               <strong>
                 Hostiny připravujeme formou rautu nebo svatební tabule
               </strong>

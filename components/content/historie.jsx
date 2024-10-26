@@ -1,6 +1,6 @@
+import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
-import { Bebas_Neue } from "next/font/google";
 const inter = Bebas_Neue({
   subsets: ["latin"],
   weight: "400",
@@ -9,9 +9,7 @@ const inter = Bebas_Neue({
 export default function Historie({ idScroll }) {
   return (
     <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
-      <div
-        className={`${inter.className} py-8 mb-10 md:py-24 md:mb-16 ubrus drop-shadow-lg`}
-      >
+      <div className={`${inter.className} ubrus ubrusOdsazeni`}>
         <h2 className="hadvojka">Historie penzionu Malba</h2>
       </div>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
@@ -29,32 +27,32 @@ export default function Historie({ idScroll }) {
             </div>
           </div>
           <div className="md:pt-8">
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Patrně první stavení, které stálo na místě penzionu Malba, byl
               malý domek, který se jmenoval <b>vila Bóža</b>. Dům byl
               identifikován na blíže neurčené fotografii z Kokořínského Dolu jen
               podle skalních místností za domem, které zůstaly prakticky
               nezměněné dodnes.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Patrně radikální přestavbou malé vily vznikl hotel a zahradní
               restaurace <b>Pelikán</b>. Točili zde Lobkowiczké pivo, ačkoli
               budova dnešní restaurace ještě nestála.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Asi až v padesátých letech byla postavena budova restaurace
               mělnickým hoteliérem panem Šrachtou. Hotel se pak jmenoval{" "}
               <b>Šrachta</b>&nbsp;až do znárodnění, kdy se stal rekreačním
               střediskem výrobního družstva malířů a lakýrníků{" "}
               <b>Malba Praha</b>.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               Současní vlastníci objekt koupili v roce 2000 a v roce 2001
               proběhla rekonstrukce na penzion s koupelnami a restauračním
               provozem. Stavělo se ve značném tempu a zahájení provozu bylo 1.
               6. 2001.
             </p>
-            <p className="mb-4 text-gray-500 sm:text-lg">
+            <p className="mb-4  ">
               V roce 2003 byla k areálu připojena chata <b>Malběnka</b>, která
               byla pravděpodobně postavena v padesátých letech v souvislosti s
               trampskou činností osady Harakoko.

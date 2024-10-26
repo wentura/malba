@@ -25,6 +25,9 @@
     background: url("/ubrus2.png");
     background-size: 100px !important;
   }
+  .ubrusOdsazeni {
+    @apply py-8 mb-10 md:py-24 md:mb-16 drop-shadow-lg;
+  }
   .ubrus {
     background: url("/ubrus2.png");
     background-position: top left;

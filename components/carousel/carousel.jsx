@@ -14,14 +14,8 @@ import "./carousel.css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Carousel() {
-  const slides = [
-    "malba/malba2",
-    "koko/4",
-    "malba/m1",
-    "malba/12",
-    "malbenka/m3",
-    "koko/6",
-  ];
+  const slides = ["carousel/1", "carousel/2", "carousel/3"];
+
   return (
     <Swiper
       autoplay={{
@@ -37,10 +31,10 @@ export default function Carousel() {
         <SwiperSlide className="swiperSlideCarousel" key={slide}>
           <Image
             src={`/images/${slide}.webp`}
-            alt="restaurace penzionu Malba"
-            height={400}
-            width={600}
-            className="object-cover object-center w-full h-full md:block"
+            alt="Penzion Malba"
+            height={600}
+            width={1800}
+            className=""
           />
         </SwiperSlide>
       ))}

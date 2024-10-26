@@ -8,12 +8,14 @@ import Restaurace from "@/components/content/restaurace";
 import Ubytovani from "@/components/content/ubytovani";
 import StrucneVyhody from "@/components/contentStrucneVyhody";
 import Hero from "@/components/hero";
+import StrucneVyhodyCarousel from "@/components/strucneVyhodyCarousel";
 
 export default function Home() {
   return (
     <main className="max-w-screen-xl mx-auto">
       {/* <Hero /> */}
-      <StrucneVyhody />
+      <StrucneVyhodyCarousel />
+      {/* <StrucneVyhody /> */}
       <AboutMalba />
       <Ubytovani idScroll="ubytovani" />
       {/* <Row

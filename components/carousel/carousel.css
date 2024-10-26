@@ -1,7 +1,3 @@
-.swiperCarousel {
-  width: 100%;
-  height: 300px;
-}
 .swiperSlideCarousel {
   text-align: center;
   font-size: 18px;
@@ -10,10 +6,22 @@
   justify-content: center;
   align-items: center;
 }
-
 .swiperSlideCarousel img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .swiperCarousel {
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiperCarousel {
+    width: 100%;
+    height: 400px;
+  }
 }

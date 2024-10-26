@@ -10,7 +10,7 @@ export default function Footer() {
       <footer className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="flex flex-col gap-4 py-6 md:justify-between md:flex-row">
           <div className="hidden md:flex md:flex-col">
-            <nav className="hidden gap-1 text-gray-500 lg:flex lg:flex-col">
+            <nav className="hidden gap-1 lg:flex lg:flex-col">
               {navi.map((navig) => {
                 return (
                   <Link key={navig.id} href={navig.route}>
@@ -22,12 +22,12 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-1">
-            <ul className="mb-6 text-gray-500 md:mb-8 ">
+            <ul className="mb-6 md:mb-8 ">
               <li>Kokořínský Důl 38</li>
               <li>277 23</li>
               <li>Kokořín</li>
             </ul>
-            <ul className="mb-6 text-gray-500 md:mb-8">
+            <ul className="mb-6 md:mb-8">
               <li>
                 <a href="tel:+420603461723" className="odkaz">
                   +420 603 461 723
@@ -40,7 +40,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <ul className="mb-6 text-gray-500 md:mb-8 ">
+            <ul className="mb-6 md:mb-8 ">
               <li>KOKOSPORT s.r.o.</li>
               <li>IČO:03662993</li>
               {/* <li>DIČ:CZ03662993</li> */}

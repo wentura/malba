@@ -12,48 +12,50 @@ import StrucneVyhodyCarousel from "@/components/strucneVyhodyCarousel";
 
 export default function Home() {
   return (
-    <main className="max-w-screen-xl mx-auto">
-      {/* <Hero /> */}
+    <main className="max-w-[2100px] mx-auto">
       <StrucneVyhodyCarousel />
-      {/* <StrucneVyhody /> */}
-      <AboutMalba />
-      <Ubytovani idScroll="ubytovani" />
-      {/* <Row
+      <div className="max-w-screen-xl mx-auto">
+        {/* <Hero /> */}
+        {/* <StrucneVyhody /> */}
+        <AboutMalba />
+        <Ubytovani idScroll="ubytovani" />
+        {/* <Row
           title="prvni row"
           text="nejak claim jak svina"
           bgImgClass="rowMalbenka hidden md:block"
           darkRow="lightRow"
         /> */}
-      <Restaurace idScroll="restaurace" />
-      {/* <Row
+        <Restaurace idScroll="restaurace" />
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test2"
           darkRow="lightRow"
         /> */}
-      <FiremniAkce idScroll="firemni-akce-svatby" />
-      {/* <Row
+        <FiremniAkce idScroll="firemni-akce-svatby" />
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test3"
           darkRow="lightRow"
         /> */}
-      <Rekreace idScroll="rekreace" />
-      {/* <Row
+        <Rekreace idScroll="rekreace" />
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
         /> */}
-      <Historie idScroll="historie" />
-      {/* <Row
+        <Historie idScroll="historie" />
+        {/* <Row
           title="ubytování s prima výhledem"
           text=""
           bgImgClass="test"
           darkRow="darkRow"
         /> */}
-      <Cenik idScroll="cenik" />
-      <Contact idScroll="kontakt" />
+        <Cenik idScroll="cenik" />
+        <Contact idScroll="kontakt" />
+      </div>
     </main>
   );
 }

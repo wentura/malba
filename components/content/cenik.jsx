@@ -31,7 +31,7 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               penzion Malba
             </h1>
             <p className="mb-4  ">Cena ubytování za osobu a noc bez snídaně:</p>
@@ -51,7 +51,7 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               pronájem
             </p>
-            <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               školící místnost
             </h1>
             <p className="mb-12  ">
@@ -65,7 +65,7 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
               chata Malběnka
             </h1>
             <p className="mb-4  ">

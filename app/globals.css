@@ -18,6 +18,11 @@
     font-style: normal;
     /* color: #003631; */
   }
+  .peknyPismo {
+    font-family: "Yeseva One", serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
   .darkRow {
     @apply text-gray-800;
   }

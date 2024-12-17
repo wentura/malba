@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Carousel from "../carousel/carousel";
 import { Content } from "../contentData";
+import Cta from "../cta";
 import Row from "../row";
 import StrucneVyhodyCarousel from "../strucneVyhodyCarousel";
 import AboutMalba from "./aboutMalba";
@@ -33,8 +34,10 @@ export default function Ubytovani({ idScroll }) {
           </div>
 
           <div className="md:pt-8">
-            <p className="">ubytování</p>
-            <h1 className="lato-bold">penzion Malba</h1>
+            {/* <p className="">ubytování</p> */}
+            <h1 className="lato-bold peknyPismo text-xl md:text-3xl mb-8">
+              penzion Malba
+            </h1>
             <p className="">
               <strong>Penzion je rozdělen do dvou budov</strong>, větší
               ubytovací, menší stravovací a školící. Celková ubytovací kapacita
@@ -47,6 +50,7 @@ export default function Ubytovani({ idScroll }) {
                 ceník ubytování
               </Link>
             </p>
+            <Cta />
           </div>
         </div>
 
@@ -74,12 +78,15 @@ export default function Ubytovani({ idScroll }) {
             <h1 className="hidden mb-4 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-6 md:text-left">
               chata Malběnka{" "}
             </h1> */}
-            <p className="mb-4  ">
+            <div className="mb-4  ">
+              <h1 className="lato-bold peknyPismo text-xl md:text-3xl mb-8">
+                chata Malběnka
+              </h1>
               <strong>
                 Malběnka je exklusivní zrenovovaný samostatný objekt na skále
               </strong>{" "}
               nad penzionem Malba.
-            </p>
+            </div>
             <p className="mb-4  ">
               <strong>
                 „Dřevěná chatička“ ve stylu trampské osady Harakoko

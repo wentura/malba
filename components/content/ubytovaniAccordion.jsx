@@ -10,7 +10,7 @@ export default function UbytovaniAccordion() {
       isCompact
       variant="splitted"
       defaultExpandedKeys={["0"]}
-      className="focus:outline-none accordion "
+      className="focus:outline-none accordion"
     >
       {data.map((item, index) => {
         return (
@@ -18,7 +18,7 @@ export default function UbytovaniAccordion() {
             key={index}
             aria-label={item.title}
             title={item.title}
-            className="mb-2  focus:outline-none accordion-item"
+            className="mb-2  focus:outline-none accordion-item "
           >
             {item.body}
           </AccordionItem>

@@ -1,6 +1,7 @@
 import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
+import Cta from "../cta";
 const inter = Bebas_Neue({
   subsets: ["latin"],
   weight: "400",
@@ -90,6 +91,7 @@ export default function FiremniAkce({ idScroll }) {
               , která je omezena maximálním počtem 40 osob. K dispozici je celý
               penzion včetně teras, jeskyně a ohniště.
             </p>
+            <Cta />
           </div>
         </div>
       </div>

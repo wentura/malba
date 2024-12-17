@@ -49,7 +49,7 @@ export default function MenuMobilni() {
         </button>
         <ul className="flex flex-col items-center w-full my-2 text-xl gap-y-2">
           <li className="flex px-8 py-4 max-h-48" key="home">
-            <Link href="/" className="" scroll={true}>
+            <Link href="/" className="" scroll={true} onClick={toggleMenu}>
               <Image
                 src="/images/malba_logo.png"
                 width={300}

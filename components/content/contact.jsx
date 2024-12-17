@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           <div className="md:pt-8">
-            <h1 className="mb-4 text-2xl font-bold text-left text-gray-800 sm:text-3xl md:mb-6">
+            <h1 className="peknyPismo mb-4 text-2xl font-bold text-left text-gray-800 sm:text-3xl md:mb-6">
               Penzion Malba
             </h1>
             <ul className="mb-6   md:mb-8">

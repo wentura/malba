@@ -8,7 +8,7 @@ const inter = Bebas_Neue({
 });
 export default function Contact() {
   return (
-    <div className="py-6 bg-white sm:py-8 lg:py-12" id="kontakt">
+    <div className="py-16 bg-white sm:py-12 lg:py-24" id="kontakt">
       <div className={`${inter.className} ubrus ubrusOdsazeni`}>
         <h2 className="hadvojka">Kontakt</h2>
       </div>

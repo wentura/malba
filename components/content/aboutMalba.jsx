@@ -6,13 +6,13 @@ export default function AboutMalba() {
     <div
       className={`max-w-screen-xl px-4 mx-auto md:px-8 flex gap-8 flex-col lg:flex-row`}
     >
-      <Image
+      {/* <Image
         src="/images/malba_logo.png"
         width={300}
         height={200}
         className="mx-auto text-center invert object-scale-down w-70"
         alt="Penzion Malba"
-      />
+      /> */}
       <div>
         <h2 className="hadvojka mb-8">Útulné ubytování v srdci Kokořínska</h2>
         <p className="">

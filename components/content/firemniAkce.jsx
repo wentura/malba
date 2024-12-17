@@ -8,7 +8,7 @@ const inter = Bebas_Neue({
 });
 export default function FiremniAkce({ idScroll }) {
   return (
-    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+    <div className="py-16 bg-white sm:py-12 lg:py-24" id={idScroll}>
       <div className={`${inter.className} ubrusOdsazeni ubrus `}>
         <h2 className="hadvojka">Firemní, skupinové akce a svatby</h2>
       </div>

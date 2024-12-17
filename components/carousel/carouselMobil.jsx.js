@@ -19,22 +19,22 @@ export default function CarouselMobilni() {
   return (
     <Swiper
       autoplay={{
-        delay: 3500,
+        delay: 4500,
         disableOnInteraction: false,
       }}
       navigation={true}
       pagination={true}
       modules={[Pagination, Autoplay, Navigation]}
-      className="swiperCarousel"
+      className="swiperCarousel  max-h-64"
     >
       {slides.map((slide) => (
         <SwiperSlide className="swiperSlideCarousel" key={slide}>
           <Image
             src={`/images/${slide}.webp`}
             alt="Penzion Malba"
-            height={600}
+            height={400}
             width={600}
-            className=""
+            className="object-bottom"
           />
         </SwiperSlide>
       ))}

@@ -12,7 +12,10 @@
     @apply text-gray-600 underline underline-offset-2 decoration-gray-400;
   }
   .hadvojka {
-    @apply mx-auto text-3xl font-bold text-center md:text-5xl;
+    @apply mx-auto text-3xl font-bold text-center md:text-6xl;
+    font-family: "Yeseva One", serif !important;
+    font-weight: 400;
+    font-style: normal;
     /* color: #003631; */
   }
   .darkRow {
@@ -33,90 +36,4 @@
     background-position: top left;
     background-size: 100px;
   }
-}
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700&display=swap");
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-.lato-bold,
-strong {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-html {
-  scroll-behavior: smooth !important;
-}
-.bg-kartaVyhod {
-  background-color: transparent;
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  background-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.4),
-    rgba(255, 255, 255, 0.8)
-  );
-
-  /* background: rgba(255, 255, 255, 0.1) url("/ubrus.png"); */
-  /* background-position: top left; */
-  /* background-size: 100px; */
-}
-.bg-header {
-  background-color: transparent;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  background-image: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.25),
-    rgba(255, 255, 255, 0.25)
-  );
-}
-.row {
-  background-blend-mode: darken;
-  background-position: center center !important;
-  background-size: cover;
-}
-.test {
-  background: rgba(0, 0, 0, 0.15) url("/images/malba/4.webp");
-}
-.test2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/malba/2.webp");
-  background-position: center center;
-  background-size: cover;
-}
-.test3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/test3.webp");
-  background-position: center center;
-  background-size: cover;
-}
-.test4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/malba/3.webp");
-  background-position: center center;
-  background-size: cover;
-}
-.test5 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/4.webp");
-  background-position: center center;
-  background-size: cover;
-}
-.rowMalbenka {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/malba/1.webp");
-  background-position: center center;
-  background-size: cover;
-}
-.header-sticky {
-  position: fixed !important;
-  z-index: 999 !important;
-  width: 100%;
-  top: 0px;
-  background-color: white;
-  scroll-padding: 150px !important;
 }

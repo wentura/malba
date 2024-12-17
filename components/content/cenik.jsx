@@ -9,7 +9,7 @@ const inter = Bebas_Neue({
 });
 export default function Cenik({ idScroll }) {
   return (
-    <div className="py-8 bg-white sm:py-12 lg:py-24" id={idScroll}>
+    <div className="py-16 bg-white sm:py-12 lg:py-24" id={idScroll}>
       <div className={`${inter.className} ubrus ubrusOdsazeni`}>
         <h2 className="hadvojka">Ceník</h2>
       </div>

@@ -1,5 +1,4 @@
 import Slider from "@/components/slider";
-import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -9,19 +8,14 @@ import Row from "../row";
 import StrucneVyhodyCarousel from "../strucneVyhodyCarousel";
 import AboutMalba from "./aboutMalba";
 import UbytovaniAccordion from "./ubytovaniAccordion";
-const inter = Bebas_Neue({
-  subsets: ["latin"],
-  weight: "400",
-  display: "swap",
-});
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="py-4 bg-white md:py-12 lg:py-24" id={idScroll}>
+    <div className="py-16 bg-white md:py-12 lg:py-24" id={idScroll}>
       <Row
         title="Ubytování s pohádkovým výhledem"
         text=""
         // bgImgClass={` ${inter.className} rowUbrus hidden md:block`}
-        bgImgClass={` ${inter.className} rowUbrus ubrusOdsazeni`}
+        bgImgClass={` rowUbrus ubrusOdsazeni`}
         darkRow="darkRow"
       />
 
@@ -40,7 +34,7 @@ export default function Ubytovani({ idScroll }) {
 
           <div className="md:pt-8">
             <p className="">ubytování</p>
-            <h1 className="">penzion Malba</h1>
+            <h1 className="lato-bold">penzion Malba</h1>
             <p className="">
               <strong>Penzion je rozdělen do dvou budov</strong>, větší
               ubytovací, menší stravovací a školící. Celková ubytovací kapacita
@@ -58,7 +52,7 @@ export default function Ubytovani({ idScroll }) {
 
         <div className="grid gap-8 py-8 md:grid-cols-2 lg:gap-12">
           <div className="lg:order-2">
-            <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden md:block">
+            <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden sm:block">
               <Slider data="ubytovani" />
             </div>
             {/* <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[500px] hidden md:block">

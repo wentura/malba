@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import "@/public/style.css";
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="cs" className="scroll-smooth">
       <body
-        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 lato-light"
+        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 lato-light text-lg"
         id="top"
       >
         <header className="max-w-full mx-auto header-sticky">

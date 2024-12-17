@@ -9,7 +9,13 @@ export default function Navigation() {
       <nav className="hidden gap-12 lg:flex">
         {navi.map((navig, index) => {
           return (
-            <Link key={index} href={navig.route} scroll={true} replace>
+            <Link
+              key={index}
+              href={navig.route}
+              scroll={true}
+              replace
+              className="lato-nav"
+            >
               {navig.title}
             </Link>
           );

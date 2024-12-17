@@ -15,24 +15,25 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Carousel() {
   const slides = ["carousel/1", "carousel/2", "carousel/3"];
+  // const slides = ["carousel/1"];
 
   return (
     <Swiper
       autoplay={{
-        delay: 3500,
+        delay: 4500,
         disableOnInteraction: false,
       }}
       navigation={true}
       pagination={true}
       modules={[Pagination, Autoplay, Navigation]}
-      className="swiperCarousel"
+      className="swiperCarousel md:min-h-[400px] lg:min-h-[600px] "
     >
       {slides.map((slide) => (
         <SwiperSlide className="swiperSlideCarousel" key={slide}>
           <Image
             src={`/images/${slide}.webp`}
             alt="Penzion Malba"
-            height={600}
+            height={800}
             width={1800}
             className=""
           />

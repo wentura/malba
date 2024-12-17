@@ -22,14 +22,16 @@ export default function Ubytovani({ idScroll }) {
 
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
-          <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden md:block">
+          {/* <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden md:block"> */}
+          <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full">
             <Image
               height={400}
               width={800}
               src="/images/malba/ml.webp"
               loading="lazy"
               alt="penzion Malba"
-              className="hidden object-cover object-center w-full h-full md:block"
+              // className="hidden object-cover object-center w-full h-full md:block"
+              className="object-cover object-center w-full h-full"
             />
           </div>
 
@@ -50,26 +52,29 @@ export default function Ubytovani({ idScroll }) {
                 ceník ubytování
               </Link>
             </p>
-            <Cta />
+            <div className="hidden md:block">
+              <Cta />
+            </div>
           </div>
         </div>
 
         <div className="grid gap-8 py-8 md:grid-cols-2 lg:gap-12">
           <div className="lg:order-2">
             <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden sm:block">
+              {/* <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full"> */}
               <Slider data="ubytovani" />
             </div>
-            {/* <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[500px] hidden md:block">
+            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[500px] sm:hidden">
               <Image
                 width={600}
                 height={600}
                 // src="/images/malbenka/8.webp"
-                src="/images/m4.webp"
+                src="/images/m3.webp"
                 loading="lazy"
                 alt="chata Malběnka"
                 className="object-cover object-center w-full h-full"
               />
-            </div> */}
+            </div>
           </div>
           <div className="pt-4 md:pt-8">
             {/* <p className="hidden font-bold text-center text-gray-500 md:flex md:text-left">
@@ -103,6 +108,9 @@ export default function Ubytovani({ idScroll }) {
               Chata není vhodná pro malé děti a osoby s omezeným pohybem kvůli
               své poloze na skále!
             </p>
+          </div>
+          <div className="md:hidden -mb-24">
+            <Cta />
           </div>
         </div>
       </div>

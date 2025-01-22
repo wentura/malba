@@ -9,7 +9,7 @@ const inter = Bebas_Neue({
 });
 export default function StrucneVyhodyCarousel() {
   return (
-    <div className="my-16">
+    <div className="mt-16 mb-8 md:mb-16">
       <div className="hidden md:block">
         <Carousel />
       </div>

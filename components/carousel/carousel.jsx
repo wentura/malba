@@ -14,29 +14,48 @@ import "./carousel.css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Carousel() {
-  const slides = ["carousel/1", "carousel/2", "carousel/3"];
-  // const slides = ["carousel/1"];
+  const slides = [
+    {
+      img: "carousel/1",
+      title: "",
+      logo: true,
+    },
+    { img: "carousel/2", title: "primo pod hradem Kokořín" },
+    { img: "carousel/3", title: "v srdci CHKO Kokořínsko" },
+  ];
 
   return (
     <Swiper
       autoplay={{
-        delay: 4500,
+        delay: 5000,
         disableOnInteraction: false,
       }}
-      navigation={true}
-      pagination={true}
+      navigation={false}
+      pagination={false}
       modules={[Pagination, Autoplay, Navigation]}
       className="swiperCarousel md:min-h-[400px] lg:min-h-[600px] "
     >
-      {slides.map((slide) => (
-        <SwiperSlide className="swiperSlideCarousel" key={slide}>
+      {slides.map((slide, index) => (
+        <SwiperSlide className="swiperSlideCarousel relative" key={index}>
           <Image
-            src={`/images/${slide}.webp`}
+            src={`/images/${slide.img}.webp`}
             alt="Penzion Malba"
             height={800}
             width={1800}
-            className=""
+            className="absolute object-cover object-center w-full h-full z-0"
           />
+          <div className="z-10 bottom-2 absolute">
+            {slide.logo && (
+              <Image
+                src="/images/malba_logo.png"
+                alt="penzion Malba - logo"
+                width={400}
+                height={320}
+                className="h-auto"
+              />
+            )}
+            <h2 className="hadvojka text-white">{slide.title}</h2>
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>

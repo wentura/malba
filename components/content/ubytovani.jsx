@@ -104,8 +104,8 @@ export default function Ubytovani({ idScroll }) {
               <Image
                 width={600}
                 height={600}
-                // src="/images/malbenka/8.webp"
-                src="/images/m3.webp"
+                src="/images/malbenka/8.webp"
+                // src="/images/m3.webp"
                 loading="lazy"
                 alt="chata Malběnka"
                 className="object-cover object-center w-full h-full"

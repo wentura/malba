@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 import "./carousel.css";
 
 // import required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 export default function Carousel() {
   const slides = [
@@ -20,7 +20,7 @@ export default function Carousel() {
       title: "",
       logo: true,
     },
-    { img: "carousel/2", title: "primo pod hradem Kokořín" },
+    { img: "carousel/2", title: "přímo pod hradem Kokořín" },
     { img: "carousel/3", title: "v srdci CHKO Kokořínsko" },
   ];
 
@@ -32,7 +32,8 @@ export default function Carousel() {
       }}
       navigation={false}
       pagination={false}
-      modules={[Pagination, Autoplay, Navigation]}
+      modules={[Autoplay]}
+      //   modules={[Pagination, Autoplay, Navigation]}
       className="swiperCarousel md:min-h-[400px] lg:min-h-[600px] "
     >
       {slides.map((slide, index) => (

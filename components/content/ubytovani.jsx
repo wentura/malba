@@ -11,7 +11,7 @@ import AboutMalba from "./aboutMalba";
 import UbytovaniAccordion from "./ubytovaniAccordion";
 export default function Ubytovani({ idScroll }) {
   return (
-    <div className="py-16 bg-white md:py-12 lg:py-24" id={idScroll}>
+    <div className="py-16 bg-white" id={idScroll}>
       <Row
         title="Ubytování s pohádkovým výhledem"
         text=""
@@ -88,19 +88,19 @@ export default function Ubytovani({ idScroll }) {
                 ceník ubytování
               </Link>
             </p>
-            <div className="hidden md:block">
-              <Cta />
-            </div>
+            {/* <div className="hidden md:block"> */}
+            <Cta text="už Chci dovolenou" />
+            {/* </div> */}
           </div>
         </div>
 
         <div className="grid gap-8 py-8 md:grid-cols-2 lg:gap-12">
           <div className="lg:order-2">
-            <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full hidden sm:block">
+            <div className="overflow-hidden hidden sm:block">
               {/* <div className="h-[400px] overflow-hidden rounded-lg bg-gray-100 drop-shadow-lg lg:h-full"> */}
               <Slider data="ubytovani" />
             </div>
-            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-[500px] sm:hidden">
+            <div className="h-64 overflow-hidden rounded-lg bg-gray-100 md:h-[500px] sm:hidden">
               <Image
                 width={600}
                 height={600}
@@ -144,10 +144,11 @@ export default function Ubytovani({ idScroll }) {
               Chata není vhodná pro malé děti a osoby s omezeným pohybem kvůli
               své poloze na skále!
             </p>
+            <Cta text="rezervovat si ubytování" />
           </div>
-          <div className="md:hidden -mb-24">
-            <Cta />
-          </div>
+          {/* <div className="md:hidden -mb-24">
+            <Cta text="Rezervujte ubytování" />
+          </div> */}
         </div>
       </div>
     </div>

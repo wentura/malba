@@ -9,7 +9,7 @@ const inter = Bebas_Neue({
 });
 export default function Restaurace({ idScroll }) {
   return (
-    <div className="py-16 bg-white sm:py-12 lg:py-24" id="restaurace">
+    <div className="py-16 bg-white" id="restaurace">
       <div className={`${inter.className} ubrusOdsazeni ubrus`}>
         <h2 className="hadvojka">Restaurace penzionu Malba</h2>
       </div>

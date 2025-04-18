@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 // import "./carousel/carousel.css";
 
 // import required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 export default function Slider({ data = "ubytovani" }) {
   let slides = [];
@@ -45,13 +45,14 @@ export default function Slider({ data = "ubytovani" }) {
   return (
     <Swiper
       autoplay={{
-        delay: 1500,
+        delay: 5000,
         disableOnInteraction: false,
       }}
       navigation={false}
       pagination={false}
-      modules={[Pagination, Autoplay, Navigation]}
-      className="swiperUbytovani max-h-[400px] overflow-hidden "
+      //   modules={[Pagination, Autoplay, Navigation]}
+      modules={[Autoplay]}
+      className="swiperUbytovani max-h-[400px] rounded-lg"
     >
       {slides.map((slide) => (
         <SwiperSlide className="swiperSlideCarouselUbytovani" key={slide}>

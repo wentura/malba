@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutMalba() {
   return (
     <div
-      className={`max-w-screen-xl px-4 mx-auto md:px-8 flex gap-8 flex-col lg:flex-row`}
+      className={`max-w-screen-xl px-4 mx-auto md:px-8 flex gap-8 flex-col lg:flex-row py-16`}
     >
       {/* <Image
         src="/images/malba_logo.png"

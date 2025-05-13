@@ -129,7 +129,7 @@ export default function Footer() {
           {/* social - end */}
         </div>
         <div className="py-8 text-sm text-center text-malba-200">
-          penzion Malba © 2024{" "}
+          penzion Malba © {new Date().getFullYear()}{" "}
           <a href="https://zbyneksvoboda.cz" target="_blank" className="odkaz">
             web Zbyněk Svoboda
           </a>

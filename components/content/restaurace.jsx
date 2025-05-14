@@ -36,7 +36,8 @@ export default function Restaurace({ idScroll }) {
           <div className=" bg-gray-100 drop-shadow-lg  mx-auto">
             <Image
               // src="/images/restaurace.webp"
-              src="/images/malba/malba2.webp"
+              //   src="/images/malba/malba2.webp"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262137/Kamil/W45A8111.webp"
               loading="lazy"
               alt="restaurace penzionu Malba"
               width={600}

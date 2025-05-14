@@ -17,17 +17,21 @@ export default function Slider({ data = "ubytovani" }) {
   let slides = [];
   if (data === "ubytovani") {
     slides = [
-      "malba/m3",
-      "malbenka/m3",
-      "malba/ml",
-      "pokoje/mr5",
-      "pokoje/mp8",
-      "pokoje/mr7",
-      "pokoje/mp1",
-      "malbenka/m1",
-      "malbenka/m2",
-      "malbenka/7",
-      "koko/5",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262134/Kamil/W45A7933.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262137/Kamil/W45A8111.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262134/Kamil/W45A7919.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262138/Kamil/W45A8113.webp",
+      //   "malba/m3",
+      //   "malbenka/m3",
+      //   "malba/ml",
+      //   "pokoje/mr5",
+      //   "pokoje/mp8",
+      //   "pokoje/mr7",
+      //   "pokoje/mp1",
+      //   "malbenka/m1",
+      //   "malbenka/m2",
+      //   "malbenka/7",
+      //   "koko/5",
     ];
   }
   // if (data === "restaurace") {
@@ -57,11 +61,12 @@ export default function Slider({ data = "ubytovani" }) {
       {slides.map((slide) => (
         <SwiperSlide className="swiperSlideCarouselUbytovani" key={slide}>
           <Image
-            src={`/images/${slide}.webp`}
+            // src={`/images/${slide}.webp`}
+            src={`${slide}`}
             alt="Penzion Malba"
             height={600}
             width={600}
-            className="object-cover object-center w-full h-full"
+            className="object-cover object-center w-full h-full rounded-lg"
           />
         </SwiperSlide>
       ))}

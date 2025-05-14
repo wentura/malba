@@ -27,7 +27,7 @@ export default function Ubytovani({ idScroll }) {
             <Image
               height={400}
               width={800}
-              src="/images/malba/ml.webp"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262134/Kamil/W45A7919.webp"
               loading="lazy"
               alt="penzion Malba"
               // className="hidden object-cover object-center w-full h-full md:block"
@@ -104,7 +104,7 @@ export default function Ubytovani({ idScroll }) {
               <Image
                 width={600}
                 height={600}
-                src="/images/malbenka/8.webp"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1747262134/Kamil/W45A7919.webp"
                 // src="/images/m3.webp"
                 loading="lazy"
                 alt="chata Malběnka"

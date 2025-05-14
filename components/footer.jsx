@@ -135,7 +135,7 @@ export default function Footer() {
           </a>
         </div>
       </footer>
-      {/* <Matomo /> */}
+      <Matomo />
     </div>
   );
 }

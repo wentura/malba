@@ -128,9 +128,18 @@ export default function Footer() {
           {/* </div> */}
           {/* social - end */}
         </div>
-        <div className="py-8 text-sm text-center text-malba-200">
-          penzion Malba © {new Date().getFullYear()}{" "}
-          <a href="https://zbyneksvoboda.cz" target="_blank" className="odkaz">
+        <div className="py-8 text-lg text-center text-malba-200">
+          provozovatel: Kokosport s.r.o.
+          <br />
+          Kokořínský Důl 41, 277 23 Kokořín
+          <br />
+          IČO: 03662993 &copy; {new Date().getFullYear()}
+          <br />
+          <a
+            href="https://zbyneksvoboda.cz"
+            target="_blank"
+            className="odkaz text-sm pt-4"
+          >
             web Zbyněk Svoboda
           </a>
         </div>

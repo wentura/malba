@@ -4,34 +4,34 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const Images = [{
-  img: "https://dummyimage.com/300.png/09f/fff",
-  alt: "Hero image 1",
+  img: "/images/koko/5.webp",
+  alt: "hrad Kokořín",
   width: 300,
   height: 300,
   position_x: "20%",
   position_y: "30%",
 }, {
-  img: "https://dummyimage.com/300.png/29f/fff",
+  img: "/images/koko/6.webp",
   alt: "Hero image 2",
   width: 300,
   height: 300,
   position_x: "80%",
   position_y: "70%",
-}, {img: "https://dummyimage.com/300.png/65f/fff",
+}, {img: "/images/malba/m3.webp",
 alt: "Hero image 4",
 width: 300,
 height: 300,
 position_x: "30%",
 position_y: "80%",
 }, {
-  img: "https://dummyimage.com/300.png/45f/fff",
+  img: "/images/malba/8.webp",
   alt: "Hero image 2",
   width: 300,
   height: 300,
   position_x: "80%",
   position_y: "30%",
 },{
-  img: "https://dummyimage.com/300.png/89f/fff",
+  img: "/images/malba/ml2.webp",
   alt: "Hero image 3",
   width: 300,
   height: 300,
@@ -64,7 +64,7 @@ export default function Hero() {
             className="absolute inset-0"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            exit={{ opacity: 1 }}
             transition={{ duration: 0.2 }}
           >
             {Images.map((image, index) => (
@@ -93,7 +93,7 @@ export default function Hero() {
                   }
                 }}
               >
-                <img
+                <Image
                   src={image.img}
                   alt={image.alt}
                   width={image.width}

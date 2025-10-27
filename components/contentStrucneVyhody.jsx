@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { Content } from "./contentData";
 export default function StrucneVyhody() {
@@ -19,7 +20,14 @@ export default function StrucneVyhody() {
               >
                 <div className="flex flex-col items-center">
                   <div className="flex items-center justify-center w-12 h-12 mb-2 rounded-lg md:h-16 md:w-16">
-                    <img src={sluzby.icon} className="p-2" alt={sluzby.title} />
+                    <Image 
+                      src={sluzby.icon} 
+                      width={48} 
+                      height={48} 
+                      className="p-2" 
+                      alt={sluzby.title}
+                      sizes="(max-width: 768px) 48px, 64px"
+                    />
                   </div>
                   <h3 className="mb-2 text-lg font-semibold text-center md:text-xl">
                     {sluzby.title}

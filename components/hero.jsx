@@ -28,7 +28,7 @@ position_y: "80%",
   alt: "Hero image 2",
   width: 300,
   height: 300,
-  position_x: "80%",
+  position_x: "70%",
   position_y: "30%",
 },{
   img: "/images/malba/ml2.webp",
@@ -70,7 +70,7 @@ export default function Hero() {
             {Images.map((image, index) => (
               <motion.div
                 key={index}
-                className="absolute w-1/3 h-1/3"
+                className="absolute w-1/4 aspect-square"
                 style={{
                   left: image.position_x,
                   top: image.position_y,

@@ -68,15 +68,27 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="mx-auto my-10 text-center md:my-16">
-        <iframe
-          className="border-0 mx-auto min-h-[500px] max-w-screen-3xl"
-          src="https://frame.mapy.cz/s/dadapegato"
-          width="100%"
-          height="100%"
-          frameBorder="0"
+      
+      <div className="max-w-screen-xl mx-auto mt-8 relative">
+        <a href="https://mapy.com/s/fejejakofe" target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+        <div
+          className="absolute inset-0 z-10"
+          aria-hidden="true"
         />
-      </div>
+        <iframe
+          src="https://mapy.com/s/fejejakofe"
+          width="100%"
+          height="333"
+          loading="lazy"
+          className="w-full border-0"
+          title="Mapa Penzion Malba"
+        ></iframe>
+        </a>
+      </div>  
+
+
+        
+ 
     </div>
   );
 }

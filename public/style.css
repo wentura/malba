@@ -15,15 +15,15 @@ strong {
   /* font-family: "Lato", sans-serif; */
   font-family: "Josefin Sans", sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600!important;
   font-style: normal;
+  /* color: #003631!important; */
 }
-.lato-bold,
-strong {
+.lato-bold {
   /* font-family: "Lato", sans-serif; */
   font-family: "Josefin Sans", sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 300 !important;
+  font-weight: 600!important;
   font-style: normal;
 }
 .yeseva {

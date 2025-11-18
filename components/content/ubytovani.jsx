@@ -37,7 +37,7 @@ export default function Ubytovani({ idScroll }) {
 
           <div className="md:pt-8">
             {/* <p className="">ubytování</p> */}
-            <h1 className="lato-bold peknyPismo text-xl md:text-3xl mb-8">
+            <h1 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
               penzion Malba
             </h1>
             <p className="pb-4">
@@ -120,7 +120,7 @@ export default function Ubytovani({ idScroll }) {
               chata Malběnka{" "}
             </h1> */}
             <div className="mb-4  ">
-              <h1 className="lato-bold peknyPismo text-xl md:text-3xl mb-8">
+              <h1 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
                 chata Malběnka
               </h1>
               <strong>

@@ -4,7 +4,7 @@ import React from "react";
 export default function AboutMalba() {
   return (
     <div
-      className={`max-w-screen-xl px-4 mx-auto md:px-8 flex gap-8 flex-col lg:flex-row py-16`}
+      className={`w-full max-w-screen-xl px-4 mx-auto md:px-8 flex gap-8 flex-col lg:flex-row py-16`}
     >
       {/* <Image
         src="/images/malba_logo.png"
@@ -14,9 +14,9 @@ export default function AboutMalba() {
         alt="Penzion Malba"
       /> */}
       <div>
-        <h2 className="hadvojka mb-8">Útulné ubytování v srdci Kokořínska</h2>
+        <h2 className="hadvojka mb-8">Útulné ubytování <br className="block sm:hidden" /> v srdci Kokořínska</h2>
         <p className="">
-          <strong>Penzion Malba</strong> s restaurací, které navazuje na dlouhou
+          <strong className="font-black">Penzion Malba</strong> s restaurací, které navazuje na dlouhou
           tradici pohostinství{" "}
           <strong>pod hradem Kokořín v srdci CHKO Kokořínsko</strong>
           .

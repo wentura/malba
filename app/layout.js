@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body
-        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 lato-light text-base md:text-xl"
+        className="max-w-full mx-auto scroll-pt-14 md:scroll-pt-12 lg:scroll-pt-8 lato-light text-lg md:text-xl font-light"
         id="top"
       >
         <PerformanceMonitor />

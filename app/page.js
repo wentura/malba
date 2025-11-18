@@ -25,13 +25,15 @@ function SectionLoader() {
 
 export default function Home() {
   return (
-    <main className="max-w-[2100px] mx-auto">
+    <main className="mx-auto">
+    {/* <main className="max-w-screen-2xl mx-auto"> */}
       <Suspense fallback={<SectionLoader />}>
         {/* <StrucneVyhodyCarousel /> */}
         <Hero />
       </Suspense>
 
-      <div className="max-w-screen-xl mx-auto">
+      <div className="w-full mx-auto">
+      {/* <div className="max-w-screen-xl mx-auto"> */}
         {/* <Hero /> */}
         {/* <StrucneVyhody /> */}
 

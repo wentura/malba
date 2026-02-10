@@ -53,6 +53,7 @@ export default function Footer() {
               height={150}
               className="pb-4 mx-auto text-center invert"
               alt="Malba logo"
+              sizes="200px"
             />
           </div>
           {/* social - start */}

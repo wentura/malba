@@ -24,6 +24,7 @@ export default function FiremniAkce({ idScroll }) {
                 loading="lazy"
                 alt="grilování, penzion Malba"
                 className="object-cover object-center w-full h-full "
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>
@@ -64,6 +65,7 @@ export default function FiremniAkce({ idScroll }) {
               loading="lazy"
               alt="grilování, penzion Malba"
               className="object-cover object-center w-full h-full"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
           <div className="md:pt-4 lg:pt-8">

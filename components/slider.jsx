@@ -67,6 +67,7 @@ export default function Slider({ data = "ubytovani" }) {
             height={600}
             width={600}
             className="object-cover object-center w-full h-full rounded-lg"
+            sizes="(max-width: 768px) 100vw, 50vw"
           />
         </SwiperSlide>
       ))}

@@ -43,6 +43,7 @@ export default function Restaurace({ idScroll }) {
               width={600}
               height={600}
               className="object-cover object-center h-full w-full rounded-lg md:h-[400px] "
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>

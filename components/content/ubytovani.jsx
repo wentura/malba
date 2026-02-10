@@ -32,6 +32,7 @@ export default function Ubytovani({ idScroll }) {
               alt="penzion Malba"
               // className="hidden object-cover object-center w-full h-full md:block"
               className="object-cover object-center w-full h-full"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
 
@@ -109,6 +110,7 @@ export default function Ubytovani({ idScroll }) {
                 loading="lazy"
                 alt="chata Malběnka"
                 className="object-cover object-center w-full h-full"
+              sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>

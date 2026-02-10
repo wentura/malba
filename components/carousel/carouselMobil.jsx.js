@@ -43,6 +43,7 @@ export default function CarouselMobilni() {
             height={600}
             width={400}
             className="absolute object-cover object-bottom w-full h-full z-0"
+            sizes="100vw"
           />
           <div className="z-10 bottom-2 absolute">
             {slide.logo && (
@@ -52,6 +53,7 @@ export default function CarouselMobilni() {
                 width={150}
                 height={120}
                 className="h-auto max-h-44 max-w-[200px]"
+                sizes="150px"
               />
             )}
             <h2 className="peknyPismo text-white text-xl">{slide.title}</h2>

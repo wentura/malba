@@ -20,6 +20,7 @@ export default function Hero() {
           height={BigImage.height}
           className="w-full max-h-[50vh] md:max-h-[70vh] object-cover"
           priority
+          sizes="100vw"
         />
         <div className="absolute inset-0 flex md:items-end md:justify-end md:pb-12 md:pr-12 hidden md:flex">
           <Image
@@ -29,6 +30,7 @@ export default function Hero() {
             height={400}
             className="w-auto h-24 md:h-32 lg:h-48 object-contain"
             priority
+            sizes="(max-width: 768px) 0px, (max-width: 1024px) 256px, 320px"
           />
         </div>
       </div>

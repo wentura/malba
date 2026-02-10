@@ -12,6 +12,7 @@ export default function Header() {
           width={100}
           height={80}
           className="h-auto invert"
+          sizes="100px"
         />
       </Link>
       <Navigation />

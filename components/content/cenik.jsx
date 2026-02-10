@@ -24,6 +24,7 @@ export default function Cenik({ idScroll }) {
                 loading="lazy"
                 alt="penzion Malba"
                 className="object-cover object-center w-full h-full"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>

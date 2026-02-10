@@ -56,6 +56,7 @@ export default function MenuMobilni() {
                 height={200}
                 className="pb-4 mx-auto text-center invert max-h-32"
                 alt="Malba logo"
+                sizes="(max-width: 768px) 200px, 300px"
               />
             </Link>{" "}
           </li>

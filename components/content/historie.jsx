@@ -23,6 +23,7 @@ export default function Historie({ idScroll }) {
                 loading="lazy"
                 alt="současná podoba penzionu Malba"
                 className="object-cover object-center w-full h-full"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>

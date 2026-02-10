@@ -1,4 +1,4 @@
-const CACHE_NAME = "malba-cache-v1";
+const CACHE_NAME = "malba-cache-v2";
 const urlsToCache = [
   "/",
   "/images/malba_logo.webp",
@@ -14,12 +14,38 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      // Return cached version or fetch from network
-      return response || fetch(event.request);
-    })
-  );
+  if (event.request.method !== "GET") {
+    return;
+  }
+
+  const requestUrl = new URL(event.request.url);
+
+  if (event.request.mode === "navigate") {
+    event.respondWith(
+      caches.open(CACHE_NAME).then(async (cache) => {
+        const cachedResponse = await cache.match(event.request);
+        const networkPromise = fetch(event.request).then((networkResponse) => {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        });
+        return cachedResponse || networkPromise;
+      })
+    );
+    return;
+  }
+
+  if (requestUrl.origin === self.location.origin) {
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        return (
+          response ||
+          fetch(event.request).then((networkResponse) => {
+            return networkResponse;
+          })
+        );
+      })
+    );
+  }
 });
 
 self.addEventListener("activate", (event) => {

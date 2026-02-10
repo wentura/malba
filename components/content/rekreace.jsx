@@ -22,6 +22,7 @@ export default function Rekreace({ idScroll }) {
               loading="lazy"
               alt="pohled na ponzion Malba"
               className="object-cover object-center w-full h-full rounded-lg lg:h-1/2 lg:mb-2"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
             <Image
               width={600}
@@ -30,6 +31,7 @@ export default function Rekreace({ idScroll }) {
               loading="lazy"
               alt="pohled na ponzion Malba"
               className="hidden object-cover object-center w-full rounded-lg lg:mt-2 lg:block lg:h-1/2"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
 

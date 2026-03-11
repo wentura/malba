@@ -14,18 +14,16 @@ export default function AboutMalba() {
         alt="Penzion Malba"
       /> */}
       <div>
-        <h2 className="hadvojka mb-8">Útulné ubytování <br className="block sm:hidden" /> v srdci Kokořínska</h2>
+        <h1 className="hadvojka mb-8">Penzion Malba <br />ubytování v srdci Kokořínska</h1>
         <p className="">
           <strong className="font-black">Penzion Malba</strong> s restaurací, které navazuje na dlouhou
-          tradici pohostinství{" "}
-          <strong>pod hradem Kokořín v srdci CHKO Kokořínsko</strong>
-          .
+          tradici pohostinství pod hradem Kokořín v srdci CHKO Kokořínsko.
           <br />S kapacitou <strong>31 lůžek v 11 pokojích</strong> s vlastními
-          koupelnami a <strong>exklusivním skalním domeček Malběnka</strong>,
+          koupelnami a exklusivním skalním domečkem Malběnka,
           který je pro 3 osoby, se jedná o jedinečné ubytování s krásnými
           výhledy.
           <br />
-          <strong>Restaurace s barem pro hosty penzionů Malba a Milča</strong>s
+          Restaurace s barem pro hosty penzionů Malba a Milča s
           kapacitou 60 míst, prostornou venkovní terasou, ohništěm a vinárnou ve
           skále nabídne nepřeberné množství chutí a vůní.
         </p>

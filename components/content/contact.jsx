@@ -1,6 +1,7 @@
 import { Bebas_Neue } from "next/font/google";
 import Image from "next/image";
 import React from "react";
+import ShareButtons from "../shareButtons";
 const inter = Bebas_Neue({
   subsets: ["latin"],
   weight: "400",
@@ -15,9 +16,9 @@ export default function Contact() {
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
           <div className="md:pt-8">
-            <h1 className="peknyPismo mb-4 text-2xl font-bold text-left text-gray-800 sm:text-3xl md:mb-6">
-              Penzion Malba
-            </h1>
+            <h3 className="peknyPismo mb-4 text-2xl font-bold text-left text-gray-800 sm:text-3xl md:mb-6">
+              Kontaktní údaje Penzion Malba
+            </h3>
             <ul className="mb-6   md:mb-8">
               <li>Kokořínský Důl 38</li>
               <li>277 23</li>
@@ -65,6 +66,7 @@ export default function Contact() {
               pomůžeme zařídit. Disponujeme vlastním vozem Volkswagen
               Transporter 7 osob + řidič.
             </p>
+            {/* <ShareButtons /> */}
           </div>
         </div>
       </div>

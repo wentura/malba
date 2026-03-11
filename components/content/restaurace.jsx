@@ -23,10 +23,8 @@ export default function Restaurace({ idScroll }) {
               </strong>{" "}
               s teplými a studenými nápoji, ovocem a zeleninou, uzeninou a sýry,
               cereáliemi a domácím pečivem.{" "}
-              <strong>
-                Večeře Vám nabídneme a pro skupiny umíme kompletní celodenní
-                stravování.
-              </strong>
+              Večeře Vám nabídneme a pro skupiny umíme kompletní celodenní
+              stravování.
             </p>
             <p className="mb-4">
               Pro skupiny jsme schopni zajistit celodenní stravování: snídaně,

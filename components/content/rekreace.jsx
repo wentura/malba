@@ -52,10 +52,8 @@ export default function Rekreace({ idScroll }) {
               cíle patří hrad Houska, Obří hlava, Žába či skalní Bludiště.
             </p>
             <p className="mb-4  ">
-              <strong>
-                Kokořínsko je populární mezi znalci cykloturistiky
-              </strong>{" "}
-              a to proto, že nabízí trasy nejenom pro vyjížďky na silničním
+              Kokořínsko je populární mezi znalci cykloturistiky a to proto, že
+              nabízí trasy nejenom pro vyjížďky na silničním
               kole, ale i náročné terény pro jízdy na horském kole, kde si na
               své přijdou jak vyznavači rychlých sjezdů a strmých stoupání, tak
               pohodoví jezdci přírodou.{" "}

@@ -32,15 +32,15 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
-              penzion Malba
-            </h1>
+            <h3 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+              Ceník ubytování penzion Malba
+            </h3>
             <p className="mb-4  ">Cena ubytování za osobu a noc bez snídaně:</p>
             <ul className="mb-4">
               {CenikUbytovani.map((cenaM) => {
                 return (
                   <li key={cenaM.id} className="">
-                    <strong>{cenaM.cena}</strong> Kč - {cenaM.text}
+                    <span className="font-bold">{cenaM.cena}</span> Kč - {cenaM.text}
                   </li>
                 );
               })}
@@ -52,9 +52,9 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               pronájem
             </p>
-            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
-              školící místnost
-            </h1>
+            <h3 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+              Pronájem školící místnosti
+            </h3>
             <p className="mb-12  ">
               Cena za pronájem je 4.000 Kč denně.
               <br />
@@ -66,11 +66,11 @@ export default function Cenik({ idScroll }) {
             <p className="font-bold text-center text-gray-500 md:text-left">
               ubytování
             </p>
-            <h1 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
-              chata Malběnka
-            </h1>
+            <h3 className="peknyPismo mb-2 text-2xl font-bold text-center text-gray-800 sm:text-3xl md:mb-2 md:text-left">
+              Ceník chaty Malběnka
+            </h3>
             <p className="mb-4  ">
-              Cena ubytování za <b>celou chatu Malběnka</b> bez snídaně:
+              Cena ubytování za celou chatu Malběnka bez snídaně:
             </p>
             <ul className="mb-4">
               {CenikMalbenka.map((cenaM) => {

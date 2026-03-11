@@ -84,8 +84,14 @@ export const metadata = {
       }
     : undefined,
   alternates: {
-    canonical: baseUrl,
+    canonical: `${baseUrl}/`,
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({ children }) {
@@ -99,11 +105,8 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         />
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        <link rel="apple-touch-icon" href="/images/malba_logo.png" />
         <meta name="theme-color" content="#ffffff" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=5"
-        />
         <Script
           id="ld-json"
           type="application/ld+json"

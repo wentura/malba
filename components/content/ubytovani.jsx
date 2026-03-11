@@ -38,11 +38,11 @@ export default function Ubytovani({ idScroll }) {
 
           <div className="md:pt-8">
             {/* <p className="">ubytování</p> */}
-            <h1 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
-              penzion Malba
-            </h1>
+            <h3 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
+              Ubytování v penzionu Malba
+            </h3>
             <p className="pb-4">
-              <strong>Penzion je rozdělen do dvou budov</strong>, větší
+              Penzion je rozdělen do dvou budov, větší
               ubytovací, menší stravovací a školící. Celková ubytovací kapacita
               penzionu je 31 lůžek v 11 pokojích a chata Malběnka je pro 3
               osoby.
@@ -122,28 +122,20 @@ export default function Ubytovani({ idScroll }) {
               chata Malběnka{" "}
             </h1> */}
             <div className="mb-4  ">
-              <h1 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
-                chata Malběnka
-              </h1>
-              <strong>
-                Malběnka je exklusivní zrenovovaný samostatný objekt na skále
-              </strong>{" "}
-              nad penzionem Malba.
+              <h3 className="lato-bold peknyPismo text-2xl md:text-3xl mb-8 text-center md:text-left">
+                Chata Malběnka – exkluzivní ubytování
+              </h3>
+              Malběnka je exklusivní zrenovovaný samostatný objekt na skále nad
+              penzionem Malba.
             </div>
             <p className="mb-4  ">
-              <strong>
-                „Dřevěná chatička“ ve stylu trampské osady Harakoko
-              </strong>{" "}
+              „Dřevěná chatička“ ve stylu trampské osady Harakoko
               připomíná svou polohou Orlí hnízdo. Domeček má vlastní koupelnu se
               sprchou a WC. K dispozici je kuchyňka, lednice a venkovní
               posezení. O komfort se stará podlahové vytápění a klimatizace.
             </p>
             <p className="mb-4  ">
-              <strong>
-                Hosté Malběnky mohou využívat všechny služby a společné prostory
-                penzionu Malba.
-              </strong>{" "}
-              Chata není vhodná pro malé děti a osoby s omezeným pohybem kvůli
+              Hosté Malběnky mohou využívat všechny služby penzionu Malba. Chata není vhodná pro malé děti a osoby s omezeným pohybem kvůli
               své poloze na skále!
             </p>
             <Cta text="rezervovat si ubytování" />

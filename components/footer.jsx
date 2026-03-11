@@ -14,7 +14,7 @@ export default function Footer() {
               {navi.map((navig) => {
                 return (
                   <Link key={navig.id} href={navig.route}>
-                    {navig.title}
+                    {navig.footerTitle ?? navig.title}
                   </Link>
                 );
               })}

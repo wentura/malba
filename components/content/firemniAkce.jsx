@@ -30,10 +30,8 @@ export default function FiremniAkce({ idScroll }) {
           </div>
           <div className="md:pt-8">
             <p className="mb-4  ">
-              <strong>
-                Restaurace penzionu není otevřena pro veřejnost a firmy tu
-                najdou dostatek klidu a soukromí.
-              </strong>
+              Restaurace penzionu není otevřena pro veřejnost a firmy tu
+              najdou dostatek klidu a soukromí.
             </p>
             <p className="mb-4  ">
               <strong>Kapacita hlavní školicí místnosti je max. 40 osob</strong>{" "}
@@ -50,9 +48,7 @@ export default function FiremniAkce({ idScroll }) {
               </strong>
               : snídaně, obědy, večeře, coffeebreaky, rožnění, grilování a
               rauty.
-              <strong>
-                Restaurace je otevřena pouze pro hosty penzionů Malba a Milča.
-              </strong>
+              Restaurace je otevřena pouze pro hosty penzionů Malba a Milča.
             </p>
           </div>
         </div>
@@ -87,10 +83,8 @@ export default function FiremniAkce({ idScroll }) {
               individuálně podle přání hostů.
             </p>
             <p className="mb-4  ">
-              <strong>
-                Hostiny připravujeme formou rautu nebo svatební tabule
-              </strong>
-              , která je omezena maximálním počtem 40 osob. K dispozici je celý
+              Hostiny připravujeme formou rautu nebo svatební tabule, která je
+              omezena maximálním počtem 40 osob. K dispozici je celý
               penzion včetně teras, jeskyně a ohniště.
             </p>
             <Cta />

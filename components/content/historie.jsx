@@ -30,22 +30,21 @@ export default function Historie({ idScroll }) {
           <div className="md:pt-8">
             <p className="mb-4  ">
               Patrně první stavení, které stálo na místě penzionu Malba, byl
-              malý domek, který se jmenoval <b>vila Bóža</b>. Dům byl
+              malý domek, který se jmenoval vila Bóža. Dům byl
               identifikován na blíže neurčené fotografii z Kokořínského Dolu jen
               podle skalních místností za domem, které zůstaly prakticky
               nezměněné dodnes.
             </p>
             <p className="mb-4  ">
               Patrně radikální přestavbou malé vily vznikl hotel a zahradní
-              restaurace <b>Pelikán</b>. Točili zde Lobkowiczké pivo, ačkoli
+              restaurace Pelikán. Točili zde Lobkowiczké pivo, ačkoli
               budova dnešní restaurace ještě nestála.
             </p>
             <p className="mb-4  ">
               Asi až v padesátých letech byla postavena budova restaurace
               mělnickým hoteliérem panem Šrachtou. Hotel se pak jmenoval{" "}
-              <b>Šrachta</b>&nbsp;až do znárodnění, kdy se stal rekreačním
-              střediskem výrobního družstva malířů a lakýrníků{" "}
-              <b>Malba Praha</b>.
+              Šrachta až do znárodnění, kdy se stal rekreačním
+              střediskem výrobního               družstva malířů a lakýrníků Malba Praha.
             </p>
             <p className="mb-4  ">
               Současní vlastníci objekt koupili v roce 2000 a v roce 2001
@@ -54,7 +53,7 @@ export default function Historie({ idScroll }) {
               6. 2001.
             </p>
             <p className="mb-4  ">
-              V roce 2003 byla k areálu připojena chata <b>Malběnka</b>, která
+              V roce 2003 byla k areálu připojena chata Malběnka, která
               byla pravděpodobně postavena v padesátých letech v souvislosti s
               trampskou činností osady Harakoko.
             </p>

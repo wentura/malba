@@ -9,7 +9,7 @@ export const CenikUbytovani = [
   { id: 8, cena: "500", text: "neobsazené lůžko, na pokoji jen jedna osoba" },
 ];
 export const CenikMalbenka = [
-  "<strong>3.000</strong> Kč / noc / chata",
-  "<strong>5.000</strong> Kč / 2 noci / chata",
-  "<strong>15.000</strong> Kč / 7 nocí / chata",
+  "<span class=\"font-bold\">3.000</span> Kč / noc / chata",
+  "<span class=\"font-bold\">5.000</span> Kč / 2 noci / chata",
+  "<span class=\"font-bold\">15.000</span> Kč / 7 nocí / chata",
 ];

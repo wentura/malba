@@ -1,3 +1,4 @@
+import AnalyticsConsent from "@/components/AnalyticsConsent";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import PerformanceMonitor from "@/components/performanceMonitor";
@@ -124,6 +125,7 @@ export default function RootLayout({ children }) {
         </header>
         {children}
         <Footer />
+        <AnalyticsConsent />
       </body>
     </html>
   );
